@@ -20,3 +20,9 @@ validate:
 	validate.py --level 2 --lang cs jirasek-udpipe-cac-1.conllu
 	validate.py --level 2 --lang cs jirasek-udpipe-fictree-1.conllu
 
+# Připravit anotaci morfologie a větné segmentace do tabulkového procesoru.
+# Vyrobený soubor se otevře v LibreOffice, tam se upraví šířky sloupců, ztuční se nadpisy a ukotví se příčky za 1. řádkem a za 3. sloupcem.
+# Pak se to uloží jako .ods nebo jako .xlsx a předá anotátorům.
+table:
+	perl conllu_to_tsv.pl < davka01.conllu > davka01.csv
+
