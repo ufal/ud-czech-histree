@@ -1,9 +1,8 @@
 # Příprava českých textů z 19. století pro anotování Universal Dependencies.
 
 # Konverze Jiráska z TEI XML do prostého textu (při zachování značek <note> pomocí hranatých a <foreign> pomocí složených závorek).
-# Tohle momentálně spouštíme ve Windows, kde jsou k dispozici zdrojová data. Proto ta windowsová cesta se zpětnými lomítky.
 jirasek:
-	perl tei_to_text.pl ELTeC-cze\level1\CS0016_1875JirasekSkalaci.xml > jirasek.txt
+	perl tei_to_text.pl CS0016_1875JirasekSkalaci.xml > jirasek.txt
 
 # Předzpracování pomocí UDPipe (segmentace na věty, tokenizace, morfologická a syntaktická analýza).
 udpipe:

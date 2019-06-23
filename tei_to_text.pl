@@ -84,6 +84,11 @@ sub process_paragraph
     # closing marks are sometimes replaced with the unidirectional
     # ASCII quotes: „Stavení!"
     $paragraph_text =~ s/"/“/g; # "
+    # ASCII apostrof občas nahrazuje vypuštěné hlásky (např. "řek'"), ale často
+    # se také používá místo koncové jednoduché uvozovky. Neumíme oba případy
+    # automaticky odlišit, ale kvůli té uvozovce bychom ho měli nahradit
+    # typografickou variantou stejně jako u dvojitých uvozovek.
+    $paragraph_text =~ s/'/‘/g; # '
     # Generate an empty line after every paragraph. UDPipe may recognize it
     # as a paragraph boundary that also terminates a sentence.
     print("$paragraph_text\n\n") unless($paragraph_text eq '');
