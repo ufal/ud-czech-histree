@@ -87,8 +87,13 @@ sub process_paragraph
     # ASCII apostrof občas nahrazuje vypuštěné hlásky (např. "řek'"), ale často
     # se také používá místo koncové jednoduché uvozovky. Neumíme oba případy
     # automaticky odlišit, ale kvůli té uvozovce bychom ho měli nahradit
-    # typografickou variantou stejně jako u dvojitých uvozovek.
+    # typografickou variantou stejně jako u dvojitých uvozovek. Zkusíme tedy
+    # alespoň vyjmenovat případy, o kterých víme, že apostrof má zůstat
+    # apostrofem.
     $paragraph_text =~ s/'/‘/g; # '
+    $paragraph_text =~ s/(la?|že|kde)‘(s)/$1'$2/ig; # '
+    $paragraph_text =~ s/(d)‘([ha-e])/$1'$2/ig; # '
+    $paragraph_text =~ s/(neřek)‘/$1'/ig; # '
     # Generate an empty line after every paragraph. UDPipe may recognize it
     # as a paragraph boundary that also terminates a sentence.
     print("$paragraph_text\n\n") unless($paragraph_text eq '');
