@@ -26,3 +26,13 @@ validate:
 table:
 	perl conllu_to_tsv.pl < davka01.conllu > davka01.csv
 
+# Ručně anotovanou tabulku uložit opět jako .csv (pokud jsme si ji mezitím převedli do .ods nebo .xlsx).
+# Zkontrolovat: kódování Unicode UTF-8, oddělovač polí je tabulátor, oddělovač textu žádný (vymazat ty automaticky nabízené uvozovky).
+fromtable:
+	perl tsv_to_conllu.pl < davka01-dan.csv > davka01-dan-morpho.conllu
+
+# TO DO
+# - Provést úpravy segmentace a tokenizace na základě komentářů v MISC.
+# - Vyhodnotit úspěšnost jednotlivých modelů UDPipe.
+# - Zkontrolovat, že každý slovní druh má takové rysy, které by měl mít.
+
