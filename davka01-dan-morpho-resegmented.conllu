@@ -719,34 +719,27 @@
 12	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = 50
-# text = Pak prosil druhého jezdce:
+# text = Pak prosil druhého jezdce: „Račiž Vaše Jasnost tu pod přístřeším posečkati, já ty chámy zburcuji!“
 1	Pak	pak	ADV	Db-------------	_	2	advmod	_	_
 2	prosil	prosit	VERB	VpYS---XR-AA---	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	druhého	druhý	ADJ	CrMS4----------	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
 4	jezdce	jezdec	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	2	obj	_	SpaceAfter=No
 5	:	:	PUNCT	Z:-------------	_	2	punct	_	SpacesAfter=\n\n
-
-# newpar
-# sent_id = 51
-# text = „Račiž Vaše Jasnost tu pod přístřeším posečkati, já ty chámy zburcuji!
-1	„	„	PUNCT	Z:-------------	_	8	punct	_	SpaceAfter=No
-2	Račiž	ráčit	VERB	Db-------------	Aspect=Imp|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	8	advmod	_	_
-3	Vaše	tvůj	DET	PSHS1-P2-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Poss|PronType=Prs	4	det	_	_
-4	Jasnost	jasnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	8	nsubj:pass	_	_
-5	tu	tu	ADV	Db------------1	PronType=Dem	8	advmod	_	_
-6	pod	pod	ADP	RR--4----------	AdpType=Prep|Case=Ins	8	case	_	_
-7	přístřeším	přístřeší	NOUN	AAIS6----1A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	8	amod	_	_
-8	posečkati	posečkat	VERB	VsMP---XX-AP---	Aspect=Imp|Polarity=Pos|Style=Arch|VerbForm=Inf	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	Z:-------------	_	13	punct	_	_
-10	já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-11	ty	ten	DET	PDIP1----------	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
-12	chámy	chám	NOUN	NNIP1-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	13	obj	_	_
-13	zburcuji	zburcovat	VERB	VB-S---1P-AA--1	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
-14	!	!	PUNCT	Z:-------------	_	8	punct	_	SpaceAfter=No
-
-# sent_id = 52a
-# text = “
-1	“	“	PUNCT	Z:-------------	_	0	root	_	_
+6	„	„	PUNCT	Z:-------------	_	13	punct	_	SpaceAfter=No
+7	Račiž	ráčit	VERB	Db-------------	Aspect=Imp|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	13	advmod	_	_
+8	Vaše	tvůj	DET	PSHS1-P2-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Poss|PronType=Prs	9	det	_	_
+9	Jasnost	jasnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	13	nsubj:pass	_	_
+10	tu	tu	ADV	Db------------1	PronType=Dem	13	advmod	_	_
+11	pod	pod	ADP	RR--4----------	AdpType=Prep|Case=Ins	13	case	_	_
+12	přístřeším	přístřeší	NOUN	AAIS6----1A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	13	amod	_	_
+13	posečkati	posečkat	VERB	VsMP---XX-AP---	Aspect=Imp|Polarity=Pos|Style=Arch|VerbForm=Inf	2	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	Z:-------------	_	18	punct	_	_
+15	já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+16	ty	ten	DET	PDIP1----------	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
+17	chámy	chám	NOUN	NNIP1-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	18	obj	_	_
+18	zburcuji	zburcovat	VERB	VB-S---1P-AA--1	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	SpaceAfter=No
+19	!	!	PUNCT	Z:-------------	_	13	punct	_	SpaceAfter=No
+20	“	“	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = 52b
 # text = A usmál se.
@@ -757,7 +750,7 @@
 
 # newpar
 # sent_id = 53
-# text = „Počkej, to si dopřeju sám!
+# text = „Počkej, to si dopřeju sám!“
 1	„	„	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
 2	Počkej	počkat	VERB	NNIP1-----A----	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	6	punct	_	_
@@ -766,10 +759,7 @@
 6	dopřeju	dopřát	VERB	NNIS2-----A----	Aspect=Perf|Mood=Ind|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	appos	_	_
 7	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	4	xcomp	_	SpaceAfter=No
 8	!	!	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
-
-# sent_id = 54
-# text = “
-1	“	“	PUNCT	Z:-------------	_	0	root	_	_
+9	“	“	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = 55
 # text = A již se vyhoupl se sedla a odevzdal úzdu svému pobočníku.
@@ -889,7 +879,7 @@
 16	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = 64
-# text = V koutě veliká kamna, studená jako venku sníh; u okna stál starý stůl, jehož křížové, široké trnože měly zářezy různých tvarů;
+# text = V koutě veliká kamna, studená jako venku sníh; u okna stál starý stůl, jehož křížové, široké trnože měly zářezy různých tvarů; uprostřed světnice stará kolébka divnými květy pomalovaná.
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
 2	koutě	kout	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	_	_
 3	veliká	veliký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	4	amod	_	_
@@ -916,17 +906,14 @@
 24	různých	různý	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	25	amod	_	_
 25	tvarů	tvar	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	23	nmod	_	SpaceAfter=No
 26	;	;	PUNCT	Z:-------------	_	13	punct	_	_
-
-# sent_id = 65
-# text = uprostřed světnice stará kolébka divnými květy pomalovaná.
-1	uprostřed	uprostřed	ADP	Db-------------	AdpType=Prep|Case=Gen	2	case	_	_
-2	světnice	světnice	NOUN	NNFS1-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
-3	stará	starý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	_	_
-4	kolébka	kolébka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	nmod	_	_
-5	divnými	divný	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	_	_
-6	květy	květ	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	2	nmod	_	_
-7	pomalovaná	pomalovaný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	dep	_	SpaceAfter=No
-8	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+27	uprostřed	uprostřed	ADP	Db-------------	AdpType=Prep|Case=Gen	28	case	_	_
+28	světnice	světnice	NOUN	NNFS1-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	13	parataxis	_	_
+29	stará	starý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	30	amod	_	_
+30	kolébka	kolébka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	28	nmod	_	_
+31	divnými	divný	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	32	amod	_	_
+32	květy	květ	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	28	nmod	_	_
+33	pomalovaná	pomalovaný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	28	dep	_	SpaceAfter=No
+34	.	.	PUNCT	Z:-------------	_	28	punct	_	_
 
 # sent_id = 66
 # text = Kde asi spočívá děcko, jež nedávno snad tu odpočívalo?
@@ -1155,7 +1142,8 @@
 1	Utekli	utéci	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	ze	z	ADP	RV--2----------	AdpType=Voc|Case=Gen	3	case	_	_
 3	statku	statek	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	1	obl	_	SpaceAfter=No
-4	!“	!“	PUNCT	Z:-------------	_	1	punct	_	_
+4	!	!	PUNCT	Z:-------------	_	1	punct	_	SpaceAfter=No
+5	“	“	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = 83
 # text = Pak pomohl pánu svému, jenž byl kord zastrčil, do sedla a vyhoupl se na to sám na svého vrance.
@@ -1429,13 +1417,10 @@
 8	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = 99
-# text = „Lenivé plémě!
+# text = „Lenivé plémě!“
 1	„	„	PUNCT	Z:-------------	_	3	punct	_	SpaceAfter=No
 2	Lenivé	lenivý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	amod	_	_
 3	plémě	plémě	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	Z:-------------	_	3	punct	_	SpaceAfter=No
-
-# sent_id = 100
-# text = “
-1	“	“	PUNCT	Z:-------------	_	0	root	_	SpacesAfter=\n\n
+5	“	“	PUNCT	Z:-------------	_	3	punct	_	SpacesAfter=\n\n
 
