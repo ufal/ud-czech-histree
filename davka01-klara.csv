@@ -1,0 +1,1432 @@
+COMMENT	ID	FORM	LEMMA	UPOS	Gender	Animacy	Number	Case	PrepCase	VerbForm	Aspect	Mood	Tense	Voice	Person	PronType	Poss	Reflex	Gender[psor]	Number[psor]	Variant	Degree	Polarity	NumType	NumForm	NumValue	Foreign	Abbr	Hyph	Style	Typo	AdpType	ConjType	NameType	XPOS	HEAD	DEPREL	DEPS	MISC
+	# newdoc id = jirasek.txt																																						
+	# newpar																																						
+	# sent_id = 1																																						
+	# text = Laciná knihovna národní.																																						
+	1	Laciná	laciný	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	2	amod	_	_
+	2	knihovna	knihovna	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	0	root	_	_
+	3	národní	národní	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	2	dep	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 2																																						
+	# text = Spisy pro zábavu a poučení.																																						
+	1	Spisy	spis	NOUN	Masc	Inan	Plur	Nom															Pos												NNIP1-----A----	0	root	_	_
+	2	pro	pro	ADP				Acc																								Prep			RR--4----------	3	case	_	_
+	3	zábavu	zábava	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	1	nmod	_	_
+	4	a	a	CCONJ																															J^-------------	5	cc	_	_
+	5	poučení	poučení	NOUN	Neut		Sing	Acc															Pos												NNNS4-----A----	3	conj	_	SpaceAfter=No
+	6	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 3																																						
+	# text = Číslo 19. Skaláci.																																						
+	1	Číslo	číslo	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	0	root	_	_
+	2	19	19	NUM																				Card	Digit										C=-------------	4	nummod	_	SpaceAfter=No
+	3	.	.	PUNCT																															Z:-------------	2	punct	_	_
+	4	Skaláci	Skalák	NOUN	Masc	Anim	Plur	Nom															Pos							Slng					NNMP1-----A----	1	nmod	_	SpaceAfter=No
+	5	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 4																																						
+	# text = V Praze.																																						
+	1	V	v	ADP				Loc																								Prep			RR--6----------	2	case	_	_
+	2	Praze	Praha	PROPN	Fem		Sing	Loc															Pos											Geo	NNFS6-----A----	0	root	_	SpaceAfter=No
+	3	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 5																																						
+	# text = Nakladatel: J. Otto, knihkupec. 1875.																																						
+	1	Nakladatel	nakladatel	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	0	root	_	SpaceAfter=No
+	2	:	:	PUNCT																															Z:-------------	3	punct	_	_
+	3	J	J	PROPN	Masc	Anim																	Pos					Abbr						Giv	NNMXX-----A---8	1	appos	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	3	punct	_	_
+	5	Otto	Otto	PROPN	Masc	Anim	Sing	Nom															Pos											Giv	NNMS1-----A----	3	flat	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	7	punct	_	_
+	7	knihkupec	knihkupec	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	3	conj	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	7	punct	_	_
+	9	1875	1875	NUM																				Card	Digit										C=-------------	7	nummod	_	SpaceAfter=No
+	10	.	.	PUNCT																															Z:-------------	1	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 6																																						
+	# text = Skaláci.																																						
+	1	Skaláci	Skalák	PROPN	Masc	Anim	Plur	Nom															Pos							Coll				Nat	NNMP1-----A----	0	root	_	SpaceAfter=No
+	2	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 7																																						
+	# text = Obraz historický z druhé polovice 18. století.																																						
+	1	Obraz	obraz	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	0	root	_	_
+	2	historický	historický	ADJ	Masc	Inan	Sing	Nom														Pos	Pos												AAIS1----1A----	1	amod	_	_
+	3	z	z	ADP				Gen																								Prep			RR--2----------	5	case	_	_
+	4	druhé	druhý	ADJ	Fem		Sing	Gen																Ord											CrFS2----------	5	amod	_	_
+	5	polovice	polovice	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	2	obl	_	_
+	6	18	18	NUM																				Card	Digit										C=-------------	8	nummod	_	SpaceAfter=No
+	7	.	.	PUNCT																															Z:-------------	6	punct	_	_
+	8	století	století	NOUN	Neut		Sing	Loc															Pos												NNNS6-----A----	5	nmod	_	SpaceAfter=No
+	9	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 8																																						
+	# text = Od Aloisa Jiráska.																																						
+	1	Od	od	ADP				Gen																								Prep			RR--2----------	2	case	_	_
+	2	Aloisa	Alois	PROPN	Masc	Anim	Sing	Gen															Pos											Geo	NNNS2-----A----	0	root	_	_
+	3	Jiráska	Jirásek	PROPN	Masc	Anim	Sing	Gen															Pos											Geo	NNNS2-----A----	2	nmod	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 9																																						
+	# text = V Praze.																																						
+	1	V	v	ADP				Loc																								Prep			RR--6----------	2	case	_	_
+	2	Praze	Praha	PROPN	Fem		Sing	Loc															Pos											Geo	NNFS6-----A----	0	root	_	SpaceAfter=No
+	3	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 10																																						
+	# text = Nakladatel: J. Otto, knihkupec.																																						
+	1	Nakladatel	nakladatel	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	0	root	_	SpaceAfter=No
+	2	:	:	PUNCT																															Z:-------------	3	punct	_	_
+	3	J	J	PROPN	Masc	Anim																	Pos					Abbr						Giv	NNMXX-----A---8	1	appos	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	3	punct	_	_
+	5	Otto	Otto	PROPN	Masc	Anim	Sing	Nom															Pos											Giv	NNMS1-----A----	3	flat	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	7	punct	_	_
+	7	knihkupec	knihkupec	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	3	conj	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 11																																						
+	# text = 1875.																																						
+	1	1875	1875	NUM																				Card	Digit										C=-------------	0	root	_	SpaceAfter=No
+	2	.	.	PUNCT																															Z:-------------	1	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 12																																						
+	# text = Knihtiskárna: J. Otto v Praze.																																						
+	1	Knihtiskárna	knihtiskárna	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	0	root	_	SpaceAfter=No
+	2	:	:	PUNCT																															Z:-------------	3	punct	_	_
+	3	J	J	PROPN	Masc	Anim																	Pos					Abbr						Giv	NNMXX-----A---8	1	appos	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	3	punct	_	_
+	5	Otto	Otto	PROPN	Masc	Anim	Sing	Nom															Pos											Giv	NNMS1-----A----	3	flat	_	_
+	6	v	v	ADP				Loc																								Prep			RR--6----------	7	case	_	_
+	7	Praze	Praha	PROPN	Fem		Sing	Loc															Pos											Geo	NNFS6-----A----	3	nmod	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	1	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 13																																						
+	# text = Památce Josefa Regnera, pěstouna a dobrodince lidu okolí hronovského a náchodského, knihu tuto posvěcuje A. J.																																						
+	1	Památce	památka	NOUN	Fem		Sing	Dat															Pos												NNMS1-----A----	0	root	_	_
+	2	Josefa	Josef	PROPN	Masc	Anim	Sing	Gen															Pos											Giv	NNMS2-----A----	1	nmod	_	_
+	3	Regnera	Regner	PROPN	Masc	Anim	Sing	Gen															Pos											Sur	NNMS2-----A----	2	flat	_	SpaceAfter=No
+	4	,	,	PUNCT																															Z:-------------	5	punct	_	_
+	5	pěstouna	pěstoun	NOUN	Masc	Anim	Sing	Gen															Pos												NNFS1-----A----	2	conj	_	_
+	6	a	a	CCONJ																															J^-------------	7	cc	_	_
+	7	dobrodince	dobrodinec	NOUN	Masc	Anim	Sing	Gen															Pos												NNMP4-----A----	2	conj	_	_
+	8	lidu	lid	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	7	nmod	_	_
+	9	okolí	okolí	NOUN	Neut		Sing	Gen															Pos												NNNS2-----A----	7	nmod	_	_
+	10	hronovského	hronovský	ADJ	Neut		Sing	Gen														Pos	Pos												AANS2----1A----	9	amod	_	_
+	11	a	a	CCONJ																															J^-------------	12	cc	_	_
+	12	náchodského	náchodský	ADJ	Neut		Sing	Gen														Pos	Pos												AANS2----1A----	10	conj	_	SpaceAfter=No
+	13	,	,	PUNCT																															Z:-------------	16	punct	_	_
+	14	knihu	kniha	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	16	obj	_	_
+	15	tuto	tento	DET	Fem		Sing	Acc								Dem																			PDFS4----------	14	det	_	_
+	16	posvěcuje	posvěcovat	VERB	Masc Fem  Sing		Sing			Fin	Imp	Ind	Pres	Act	3								Pos												VB-S---3P-AA---	1	parataxis	_	_
+	17	A	A	PROPN	Masc	Anim																	Pos					Abbr						Giv	NNMXX-----A---8	16	nsubj	_	SpaceAfter=No
+	18	.	.	PUNCT																															Z:-------------	17	punct	_	_
+	19	J	J	PROPN	Masc	Anim																	Pos					Abbr						Giv	NNMXX-----A---8	17	flat	_	SpaceAfter=No
+	20	.	.	PUNCT																															Z:-------------	1	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 14																																						
+	# text = Kniha první.																																						
+	1	Kniha	kniha	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	0	root	_	_
+	2	první	první	ADJ	Fem		Sing	Nom																Ord											CrFS1----------	1	dep	_	SpaceAfter=No
+	3	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 15																																						
+	# text = Salva guardia.																																						
+	1	Salva	Salva	ADJ																		Pos	Pos											Com	AAXXX----1A----	2	amod	_	_
+	2	guardia	guardia	NOUN	Fem		Sing	Nom															Pos				Foreign								NNFS1-----A----	0	root	_	SpaceAfter=No
+	3	.	.	PUNCT																															Z:-------------	2	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 16																																						
+	# text = I. Zbloudilí.																																						
+	1	I	I	NUM																														Giv	NNMXX-----A---8	0	root	_	SpaceAfter=No
+	2	.	.	PUNCT																															Z:-------------	1	punct	_	_
+	3	Zbloudilí	zbloudilý	ADJ	Masc	Anim	Plur	Nom															Pos											Sur	NNMS1-----A----	1	flat	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	1	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 17																																						
+	# text = U lesa na zasněžené cestě zastavili se dva jezdcové.																																						
+	1	U	u	ADP				Gen																								Prep			RR--2----------	2	case	_	_
+	2	lesa	les	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	6	obl	_	_
+	3	na	na	ADP				Loc																								Prep			RR--6----------	5	case	_	_
+	4	zasněžené	zasněžený	ADJ	Fem		Sing	Loc														Pos	Pos												AAFS6----1A----	5	amod	_	_
+	5	cestě	cesta	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	2	nmod	_	_
+	6	zastavili	zastavit	VERB	Masc	Anim	Plur			Part	Perf		Past	Act	3								Pos												VpMP---XR-AA---	0	root	_	_
+	7	se	s	PRON				Acc								Prs		Reflex			Short														P7-X4----------	6	expl:pv	_	_
+	8	dva	dva	NUM	Masc		Plur	Nom																Card	Word	1,2,3									ClYP1----------	9	nummod	_	_
+	9	jezdcové	jezdec	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A---1	6	nsubj	_	SpaceAfter=No
+	10	.	.	PUNCT																															Z:-------------	6	punct	_	_
+																																							
+	# sent_id = 18																																						
+	# text = Padal hustě sníh, chladný vítr rozvíval ohony a hřívy ořů, již hlavy kloníce oči přimhuřovali.																																						
+	1	Padal	padat	VERB	Masc	Inan	Sing			Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	_
+	2	hustě	hustě	ADV																		Pos	Pos												Dg-------1A----	1	advmod	_	_
+	3	sníh	sníh	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	1	nsubj	_	SpaceAfter=No
+	4	,	,	PUNCT																															Z:-------------	7	punct	_	_
+	5	chladný	chladný	ADJ	Masc	Inan	Sing	Nom														Pos	Pos												AAIS1----1A----	6	amod	_	_
+	6	vítr	vítr	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	7	nsubj	_	_
+	7	rozvíval	rozvívat	VERB	Masc	Inan	Sing			Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	1	conj	_	_
+	8	ohony	ohon	NOUN	Masc	Inan	Plur	Acc															Pos												NNIP4-----A----	7	obj	_	_
+	9	a	a	CCONJ																															J^-------------	10	cc	_	_
+	10	hřívy	hříva	NOUN	Fem		Plur	Acc															Pos												NNFP4-----A----	8	conj	_	_
+	11	ořů	oř	NOUN	Masc	Anim	Plur	Gen															Pos												NNMP2-----A----	8	nmod	_	SpaceAfter=No
+	12	,	,	PUNCT																															Z:-------------	17	punct	_	_
+	13	již	jenž	PRON																															Db-------------	14	advmod:emph	_	_
+	14	hlavy	hlava	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	17	obl	_	_
+	15	kloníce	klonit	VERB	Masc	Anim	Plur			Conv			Pres 										Pos												NNIS2-----A----	14	nmod	_	_
+	16	oči	oko	NOUN	Neut		Plur	Acc															Pos												NNFP4-----A----	17	obj	_	_
+	17	přimhuřovali	přimhuřovat	VERB	Masc	Anim	Plur			Part	Imp		Past	Act	3								Pos												VpMP---XR-AA---	1	conj	_	SpaceAfter=No
+	18	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 19																																						
+	# text = Jezdec po levici postaviv se do třemenů, bedlivě před sebe pohlížel; druhý krčil se do límce svého mohútného pláště.																																						
+	1	Jezdec	jezdec	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	12	nsubj	_	_
+	2	po	po	ADP				Loc																								Prep			RR--6----------	3	case	_	_
+	3	levici	levice	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	1	nmod	_	_
+	4	postaviv	postavit	VERB	Masc		Sing			Conv			Pres										Pos												NNFP2-----A----	3	nmod	_	_
+	5	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	12	expl:pv	_	_
+	6	do	do	ADP				Gen																								Prep			RR--2----------	7	case	_	_
+	7	třemenů	třemen	NOUN	Masc	Inan	Plur	Gen															Pos												NNIP2-----A----	12	obl	_	SpaceAfter=No
+	8	,	,	PUNCT																															Z:-------------	12	punct	_	_
+	9	bedlivě	bedlivě	ADV																		Pos	Pos												Dg-------1A----	12	advmod	_	_
+	10	před	před	ADP				Acc																								Prep			RR--4----------	11	case	_	_
+	11	sebe	se	PRON				Acc								Prs		Reflex																	P6-X4----------	12	obl:arg	_	_
+	12	pohlížel	pohlížet	VERB						Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	SpaceAfter=No
+	13	;	;	PUNCT																															Z:-------------	15	punct	_	_
+	14	druhý	druhý	NUM	Masc	Anim																		Ord											CrIS1----------	15	amod	_	_
+	15	krčil	krčit	VERB						Part	Imp		Past	Act									Pos												NNIS1-----A----	12	nsubj	_	_
+	16	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	18	expl:pv	_	_
+	17	do	do	ADP				Gen																								Prep			RR--2----------	18	case	_	_
+	18	límce	límec	NOUN	Masc	Inan	Sing	Gen															Pos												NNMS2-----A----	15	nmod	_	_
+	19	svého	svůj	DET	Masc,Neut		Sing	Gen								Prs	Poss	Reflex																	P8ZS2----------	21	det	_	_
+	20	mohútného	mohútný	ADJ	Masc	Inan	Sing	Gen														Pos	Pos												AAIS2----1A----	21	amod	_	_
+	21	pláště	plášť	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	18	nmod	_	SpaceAfter=No
+	22	.	.	PUNCT																															Z:-------------	18	punct	_	_
+																																							
+	# sent_id = 20																																						
+	# text = Chumelkou nebylo snadno krajinu pozorovat.																																						
+	1	Chumelkou	chumelka	NOUN	Fem		Sing	Ins															Pos												NNFS7-----A----	2	obl	_	_
+	2	nebylo	být	AUX						Part	Imp		Past	Act	3								Neg												VpNS---XR-NA---	0	root	_	_
+	3	snadno	snadno	ADV																		Pos	Pos												Dg-------1A----	5	advmod	_	_
+	4	krajinu	krajina	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	5	obj	_	_
+	5	pozorovat	pozorovat	VERB						Inf	Imp												Pos												Vf--------A----	2	xcomp	_	SpaceAfter=No
+	6	.	.	PUNCT																															Z:-------------	2	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 21																																						
+	# text = Na pravo od jezdců vypínala se stráň zarostlá temným hvozdem, na němž nyní se bílý rozkládal příkrov.																																						
+	1	Na	na	ADP				Acc																								Prep			RR--4----------	2	case	_	_
+	2	pravo	pravo	NOUN	Neut		Sing	Acc															Pos												NNNS4-----A----	5	obl	_	_
+	3	od	od	ADP				Gen																								Prep			RR--2----------	4	case	_	_
+	4	jezdců	jezdec	NOUN	Masc	Anim	Plur	Gen															Pos												NNMP2-----A----	5	obl	_	_
+	5	vypínala	vypínat	VERB	Fem,Neut		Plur,Sing			Part	Perf		Past	Act	3								Pos												VpQW---XR-AA---	0	root	_	_
+	6	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	5	obj	_	_
+	7	stráň	stráň	NOUN	Fem		Sing	Nom																											Db-------------	8	advmod	_	_
+	8	zarostlá	zarostlý	ADJ	Fem		Sing	Nom							3								Pos												VB-S---3P-AA---	5	advcl	_	_
+	9	temným	temný	ADJ	Masc	Inan	Sing	Ins														Pos	Pos												AAIS7----1A----	10	amod	_	_
+	10	hvozdem	hvozd	NOUN	Masc	Inan	Sing	Ins															Pos												NNIS7-----A----	8	obj	_	SpaceAfter=No
+	11	,	,	PUNCT																															Z:-------------	17	punct	_	_
+	12	na	na	ADP				Loc																								Prep			RR--6----------	13	case	_	_
+	13	němž	jenž	PRON	Masc,Neut		Sing	Loc	Pre							Rel																			P9ZS6----------	17	obl	_	_
+	14	nyní	nyní	ADV												Dem																			Db-------------	17	advmod	_	_
+	15	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	17	expl:pv	_	_
+	16	bílý	bílý	ADJ	Masc	Inan	Sing	Nom														Pos	Pos												AAMS1----1A----	17	nsubj	_	_
+	17	rozkládal	rozkládat	VERB	Masc		Sing			Part			Past	Act	3								Pos												VpYS---XR-AA---	10	acl	_	_
+	18	příkrov	příkrov	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS4-----A----	17	obj	_	SpaceAfter=No
+	19	.	.	PUNCT																															Z:-------------	5	punct	_	_
+																																							
+	# sent_id = 22																																						
+	# text = Po levici, na kraji úzké pohorské cesty zazníval tesklivý šelest suchého listí, jež dosud zůstalo na keřích bukových.																																						
+	1	Po	po	ADP				Loc																								Prep			RR--6----------	2	case	_	_
+	2	levici	levice	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	9	obl	_	SpaceAfter=No
+	3	,	,	PUNCT																															Z:-------------	5	punct	_	_
+	4	na	na	ADP				Loc																								Prep			RR--6----------	5	case	_	_
+	5	kraji	kraj	NOUN	Masc	Inan	Sing	Loc															Pos												NNIS6-----A----	2	conj	_	_
+	6	úzké	úzký	ADJ	Fem		Sing	Gen														Pos	Pos												AAFS2----1A----	8	amod	_	_
+	7	pohorské	pohorský	ADJ	Fem		Sing	Gen														Pos	Pos												AAFS2----1A----	8	amod	_	_
+	8	cesty	cesta	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	5	nmod	_	_
+	9	zazníval	zaznívat	VERB	Masc		Sing			Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	_
+	10	tesklivý	tesklivý	ADJ	Masc	Inan	Sing	Nom														Pos	Pos												AAIS1----1A----	11	amod	_	_
+	11	šelest	šelest	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	9	nsubj	_	_
+	12	suchého	suchý	ADJ	Neut		Sing	Gen														Pos	Pos												AANS2----1A----	13	amod	_	_
+	13	listí	listí	NOUN	Neut		Sing	Gen															Pos												NNNS2-----A----	11	nmod	_	SpaceAfter=No
+	14	,	,	PUNCT																															Z:-------------	17	punct	_	_
+	15	jež	jenž	PRON	Neut		Sing	Nom	Npr							Rel																			PJNS1----------	17	nsubj	_	_
+	16	dosud	dosud	ADV												Dem																			Db-------------	17	advmod	_	_
+	17	zůstalo	zůstat	VERB	Neut		Sing			Part			Past	Act									Pos												VpNS---XR-AA---	11	acl	_	_
+	18	na	na	ADP				Loc																								Prep			RR--6----------	19	case	_	_
+	19	keřích	keř	NOUN	Neut		Plur	Loc															Pos												NNNP6-----A----	17	obl	_	_
+	20	bukových	bukový	ADJ	Neut		Plur	Loc														Pos	Pos												AANP6----1A----	19	amod	_	SpaceAfter=No
+	21	.	.	PUNCT																															Z:-------------	9	punct	_	_
+																																							
+	# sent_id = 23																																						
+	# text = Pod silnicí byl hluboký ouval, nad nímž dále lesnaté vrchy vyčnívaly.																																						
+	1	Pod	pod	ADP				Ins																								Prep			RR--7----------	2	case	_	_
+	2	silnicí	silnice	NOUN	Fem		Sing	Ins															Pos												NNFS7-----A----	5	obl	_	_
+	3	byl	být	AUX	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	5	cop	_	_
+	4	hluboký	hluboký	ADJ	Masc	Inan	Sing	Nom														Pos	Pos												AAIS1----1A----	5	amod	_	_
+	5	ouval	ouval	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	0	root	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	12	punct	_	_
+	7	nad	nad	ADP				Ins																								Prep			RR--7----------	8	case	_	_
+	8	nímž	jenž	PRON	Masc,Neut		Sing	Ins	Pre							Rel																			P9ZS7----------	12	obl:arg	_	_
+	9	dále	daleko	ADV																															Db------------1	12	advmod	_	_
+	10	lesnaté	lesnatý	ADJ	Fem		Plur	Nom														Pos	Pos												AAFP1----1A----	11	amod	_	_
+	11	vrchy	vrch	NOUN	Masc	Inan	Plur	Nom															Pos												NNFP1-----A----	12	nsubj	_	_
+	12	vyčnívaly	vyčnívat	VERB	Fem,Masc	Inan	Plur			Part	Imp		Past	Act	3								Pos												VpTP---XR-AA---	5	acl	_	SpaceAfter=No
+	13	.	.	PUNCT																															Z:-------------	5	punct	_	_
+																																							
+	# sent_id = 24																																						
+	# text = Zdola znělo temné hučení říčky, jejíž rychlé vlny mráz dosud ledem nespoutal.																																						
+	1	Zdola	zdola	ADV																															Db-------------	2	advmod	_	_
+	2	znělo	znít	VERB	Neut		Sing			Part			Past	Act	3								Pos												VpNS---XR-AA---	0	root	_	_
+	3	temné	temný	ADJ	Neut		Sing	Nom														Pos	Pos												AANS1----1A----	4	amod	_	_
+	4	hučení	hučení	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	2	nsubj	_	_
+	5	říčky	říčka	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	4	nmod	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	13	punct	_	_
+	7	jejíž	jež	DET	Masc,Neut		Sing	Nom							3	Rel	Poss		Fem	Sing															P1ZS1FS3-------	9	det	_	_
+	8	rychlé	rychlý	ADJ	Fem		Sing	Acc														Pos	Pos												AAFS2----1A----	9	amod	_	_
+	9	vlny	vlna	NOUN	Fem		Sing	Acc															Pos												NNFS2-----A----	13	obj	_	_
+	10	mráz	mráz	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	13	nsubj	_	_
+	11	dosud	dosud	ADV												Dem																			Db-------------	13	advmod	_	_
+	12	ledem	led	NOUN	Masc	Inan	Sing	Ins															Pos												NNIS7-----A----	13	obl	_	_
+	13	nespoutal	spoutat	VERB	Masc		Sing			Part	Imp		Past	Act	3								Neg												VpYS---XR-NA---	5	acl	_	SpaceAfter=No
+	14	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 25																																						
+	# text = Mrtvo a ticho bylo kolem.																																						
+	1	Mrtvo	mrtvo	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	5	nsubj	_	_
+	2	a	a	CCONJ																															J^-------------	3	cc	_	_
+	3	ticho	ticho	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	1	conj	_	_
+	4	bylo	být	AUX	Neut		Sing			Part			Past	Act	3								Pos												VpNS---XR-AA---	5	cop	_	_
+	5	kolem	kolem	ADV																			Pos												NNNS7-----A----	0	root	_	SpaceAfter=No
+	6	.	.	PUNCT																															Z:-------------	5	punct	_	_
+																																							
+	# sent_id = 26																																						
+	# text = Jednotvárný šum vody kolem tekoucí, již viděti nebylo, dodával mrtvu zimního dne ještě více smutku.																																						
+	1	Jednotvárný	jednotvárný	ADJ	Masc	Inan	Sing	Nom														Pos	Pos												AAIS1----1A----	2	amod	_	_
+	2	šum	šum	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	11	nsubj	_	_
+	3	vody	voda	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	2	nmod	_	_
+	4	kolem	kolem	ADP				Gen																								Prep			RR--2----------	5	case	_	_
+	5	tekoucí	tekoucí	ADJ	Fem		Sing	Gen		Part	Imp		Pres	Act									Pos												AGFS2-----A----	3	amod	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	9	punct	_	_
+	7	již	jež	PRON																															Db-------------	9	advmod	_	_
+	8	viděti	viděti	VERB						Inf																									Db-------------	9	advmod	_	_
+	9	nebylo	být	VERB	Neut		Sing						Past	Act	3								Neg												VpNS---XR-NA---	2	acl	_	SpaceAfter=No
+	10	,	,	PUNCT																															Z:-------------	9	punct	_	_
+	11	dodával	dodávat	VERB	Masc		Sing			Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	_
+	12	mrtvu	mrtvo	NOUN	Neut		Sing	Dat															Pos												NNFS4-----A----	11	obj	_	_
+	13	zimního	zimní	ADJ	Masc	Inan	Sing	Gen														Pos	Pos												AAIS2----1A----	14	amod	_	_
+	14	dne	den	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	12	nmod	_	_
+	15	ještě	ještě	ADV																															Db-------------	16	advmod:emph	_	_
+	16	více	hodně	ADV																		Cmp	Pos												Dg-------2A----	11	advmod	_	_
+	17	smutku	smutek	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	16	nmod	_	SpaceAfter=No
+	18	.	.	PUNCT																															Z:-------------	11	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 27																																						
+	# text = „Marně se rozhlížím, Jasnosti, nevidím ničeho; ale již se pamatuji, co nevidět přijedeme do vsi,“ pravil jezdec po levici a usedl opět do sedla.																																						
+	1	„	„	PUNCT																															Z:-------------	4	punct	_	SpaceAfter=No
+	2	Marně	marně	ADV																		Pos	Pos												Dg-------1A----	4	advmod	_	_
+	3	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	4	expl:pv	_	_
+	4	rozhlížím	rozhlížet	VERB			Sing			Fin	Perf	Ind	Pres	Act	1								Pos												VB-S---1P-AA---	0	root	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	8	punct	_	_
+	6	Jasnosti	Jasnost	PROPN	Fem		Sing	Vok															Pos											Sur	NNMS1-----A----	8	nsubj	_	SpaceAfter=No
+	7	,	,	PUNCT																															Z:-------------	6	punct	_	_
+	8	nevidím	vidět	VERB			Sing			Fin		Ind	Pres	Act	1								Neg												VB-S---1P-NA---	4	conj	_	_
+	9	ničeho	nic	PRON				Gen								Neg																			PW--2----------	8	obj	_	SpaceAfter=No
+	10	;	;	PUNCT																															Z:-------------	14	punct	_	_
+	11	ale	ale	CCONJ																															J^-------------	14	cc	_	_
+	12	již	již	ADV																															Db-------------	14	advmod	_	_
+	13	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	14	expl:pv	_	_
+	14	pamatuji	pamatovat	VERB			Sing			Fin	Imp	Ind	Pres	Act	1								Pos												VB-S---1P-AA--1	4	conj	_	SpaceAfter=No
+	15	,	,	PUNCT																															Z:-------------	17	punct	_	_
+	16	co	co	PRON		Inan		Acc								Int,Rel																			PQ--4----------	17	obj	_	_
+	17	nevidět	vidět	VERB						Inf													Neg												Vf--------N----	14	ccomp	_	_
+	18	přijedeme	přijet	VERB			Plur			Fin		Ind	Pres	Act	1								Pos												VB-P---1P-AA---	17	conj	_	_
+	19	do	do	ADP				Gen																								Prep			RR--2----------	20	case	_	_
+	20	vsi	ves	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	18	obl	_	SpaceAfter=No
+	21	,	,	PUNCT																															Z:-------------	4	punct	_	SpaceAfter=No
+	22	“	“	PUNCT																															Z:-------------	4	punct	_	_
+	23	pravil	pravit	VERB	Masc		Sing			Part	Perf		Past	Act	3								Pos												VpYS---XR-AA---	4	conj	_	_
+	24	jezdec	jezdec	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	23	nsubj	_	_
+	25	po	po	ADP				Loc																								Prep			RR--6----------	26	case	_	_
+	26	levici	levice	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	23	obl	_	_
+	27	a	a	CCONJ																															J^-------------	28	cc	_	_
+	28	usedl	usednout	VERB	Masc		Sing			Part			Past	Act	3								Pos												VpYS---XR-AA---	23	conj	_	_
+	29	opět	opět	ADV																															Db-------------	28	advmod	_	_
+	30	do	do	ADP				Gen																								Prep			RR--2----------	31	case	_	_
+	31	sedla	sedlo	NOUN	Neut		Sing	Gen															Pos												NNNS2-----A----	28	obl	_	SpaceAfter=No
+	32	.	.	PUNCT																															Z:-------------	4	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 28																																						
+	# text = Jasnost z temna zaklela a trhnuvši úzdou svého koně jela dále; za ní její průvodce.																																						
+	1	Jasnost	Jasnost	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	4	nsubj	_	_
+	2	z	z	ADP				Gen																								Prep			RR--2----------	3	case	_	_
+	3	temna	temno	NOUN	Neut		Sing	Gen															Pos												NNNS2-----A----	1	nmod	_	_
+	4	zaklela	zaklít	VERB	Fem,Neut		Plur,Sing			Part	Perf		Past	Act									Pos												VpQW---XR-AA---	0	root	_	_
+	5	a	a	CCONJ																															J^-------------	7	cc	_	_
+	6	trhnuvši	trhnout	VERB						Conv													Pos												NNMP1-----A---1	7	nsubj	_	_
+	7	úzdou	úzda	VERB			Plur			Fin		Ind	Pres	Act	3								Pos												VB-P---3P-AA---	4	conj	_	_
+	8	svého	svůj	DET	Masc	Anim	Sing	Acc								Prs	Poss	Reflex																	P8MS4----------	9	det	_	_
+	9	koně	kůň	NOUN	Masc	Anim	Plur	Acc															Pos												NNMP4-----A----	7	obj	_	_
+	10	jela	jet	VERB	Fem,Neut		Plur,Sing			Part			Past	Act	3								Pos												VpQW---XR-AA---	4	conj	_	_
+	11	dále	dále	ADV																															Db------------1	10	advmod	_	SpaceAfter=No
+	12	;	;	PUNCT																															Z:-------------	10	punct	_	_
+	13	za	za	ADP				Ins																								Prep			RR--7----------	14	case	_	_
+	14	ní	ona	PRON	Fem		Sing	Ins	Pre						3	Prs																			P5FS7--3-------	10	obl	_	_
+	15	její	její	DET	Fem		Sing	Nom							3	Prs	Poss		Fem	Sing															PSZS1FS3-------	16	det	_	_
+	16	průvodce	průvodce	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	10	nsubj	_	SpaceAfter=No
+	17	.	.	PUNCT																															Z:-------------	4	punct	_	_
+																																							
+	# sent_id = 29																																						
+	# text = Koně se bořili do sypkého sněhu, jenž se jim na nohy usazoval; sníh hustě padající zavál brzo jejich stopu.																																						
+	1	Koně	kůň	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A----	3	nsubj	_	_
+	2	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	3	expl:pv	_	_
+	3	bořili	bořit	VERB	Masc	Anim	Plur			Part	Perf		Past	Act	3								Pos												VpMP---XR-AA---	0	root	_	_
+	4	do	do	ADP				Gen																								Prep			RR--2----------	6	case	_	_
+	5	sypkého	sypký	ADJ	Masc	Inan	Sing	Gen														Pos	Pos												AAIS2----1A----	6	amod	_	_
+	6	sněhu	sníh	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	3	obl	_	SpaceAfter=No
+	7	,	,	PUNCT																															Z:-------------	13	punct	_	_
+	8	jenž	jenž	PRON	Masc		Sing	Nom	Npr							Rel																			PJYS1----------	13	nsubj	_	_
+	9	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	13	expl:pv	_	_
+	10	jim	on	PRON			Plur	Dat							3	Prs																			PPXP3--3-------	13	obj	_	_
+	11	na	na	ADP				Acc																								Prep			RR--4----------	12	case	_	_
+	12	nohy	noha	NOUN	Fem		Plur	Acc															Pos												NNFP4-----A----	13	obl	_	_
+	13	usazoval	usazovat	VERB	Masc		Sing			Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	6	acl	_	SpaceAfter=No
+	14	;	;	PUNCT																															Z:-------------	18	punct	_	_
+	15	sníh	sníh	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	18	nsubj	_	_
+	16	hustě	hustě	ADV																		Pos	Pos												Dg-------1A----	17	advmod	_	_
+	17	padající	padající	ADJ	Masc	Inan	Sing	Nom		Part	Imp		Pres	Act									Pos												AGIS1-----A----	15	amod	_	_
+	18	zavál	zavát	VERB	Masc		Sing			Part			Past	Act	3								Pos												VpYS---XR-AA---	3	conj	_	_
+	19	brzo	brzy	ADV																		Pos	Pos												Dg-------1A---1	18	advmod	_	_
+	20	jejich	jeho	DET											3	Prs	Poss			Plur															PSXXXXP3-------	21	det	_	_
+	21	stopu	stopa	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	18	obj	_	SpaceAfter=No
+	22	.	.	PUNCT																															Z:-------------	3	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 30																																						
+	# text = Tu a tam bylo vidět u silnice osyku neb jeřáb, z jichž haluzí, jezdce uzřevši, těžkým letem ulétala vrána.																																						
+	1	Tu	ten	DET	Fem		Sing	Acc								Dem																			PDFS4----------	0	root	_	_
+	2	a	a	CCONJ																															J^-------------	5	cc	_	_
+	3	tam	tam	ADV												Dem																			Db-------------	5	advmod	_	_
+	4	bylo	být	AUX	Neut		Sing			Part			Past	Act	3								Pos												VpNS---XR-AA---	5	aux	_	_
+	5	vidět	vidět	VERB						Inf													Pos												Vf--------A----	1	conj	_	_
+	6	u	u	ADP				Gen																								Prep			RR--2----------	7	case	_	_
+	7	silnice	silnice	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	5	obl	_	_
+	8	osyku	osyka	NOUN	Fem		Sing	Acc															Pos												NNIS2-----A----	7	nmod	_	_
+	9	neb	nebo	CCONJ																										Arch					J^------------2	21	cc	_	_
+	10	jeřáb	jeřáb	NOUN	Masc	Inan	Sing	Acc															Pos												NNIS4-----A----	21	obj	_	SpaceAfter=No
+	11	,	,	PUNCT																															Z:-------------	14	punct	_	_
+	12	z	z	ADP				Gen																								Prep			RR--2----------	13	case	_	_
+	13	jichž	ony	PRON			Plur	Gen	Npr							Rel																			PJXP2----------	14	obl:arg	_	_
+	14	haluzí	haluze	NOUN	Fem		Plur	Gen															Pos												VB-S---3P-AA---	10	acl	_	SpaceAfter=No
+	15	,	,	PUNCT																															Z:-------------	17	punct	_	_
+	16	jezdce	jezdec	NOUN	Masc	Anim	Plur	Acc															Pos												NNMS1-----A----	17	nmod	_	_
+	17	uzřevši	uzřít	VERB	Masc	Anim	Plur			Conv			Past										Pos												NNMP1-----A---1	10	appos	_	SpaceAfter=No
+	18	,	,	PUNCT																															Z:-------------	17	punct	_	_
+	19	těžkým	těžký	ADJ	Masc	Inan	Sing	Ins														Pos	Pos												AAIS7----1A----	20	amod	_	_
+	20	letem	let	NOUN	Masc	Inan	Sing	Ins															Pos												NNIS7-----A----	21	obl	_	_
+	21	ulétala	ulétat	VERB	Fem,Neut		Plur,Sing			Part	Imp		Past	Act	3								Pos												VpQW---XR-AA---	5	conj	_	_
+	22	vrána	vrána	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	21	nsubj	_	SpaceAfter=No
+	23	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 31																																						
+	# text = Jezdcové pobádali ostruhou koně, kteří pustivše se do klusu za chvíli ustali; byli umdleni.																																						
+	1	Jezdcové	jezdec	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A---1	2	nsubj	_	_
+	2	pobádali	pobádat	VERB	Masc	Anim	Plur			Part	Imp		Past	Act									Pos												VpMP---XR-AA---	16	csubj	_	_
+	3	ostruhou	ostruha	NOUN	Fem		Sing	Acc																Ord											CrFS4----------	4	amod	_	_
+	4	koně	kůň	NOUN	Masc	Anim	Plur	Acc															Pos												NNMP4-----A----	2	obj	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	13	punct	_	_
+	6	kteří	který	DET	Masc	Anim	Plur	Nom								Int,Rel																			P4MP1----------	13	nsubj	_	_
+	7	pustivše	pustit	VERB						Conv						Tot																			PLNS1---------1	6	xcomp	_	_
+	8	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	13	expl:pv	_	_
+	9	do	do	ADP				Gen																								Prep			RR--2----------	10	case	_	_
+	10	klusu	klus	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	13	obl	_	_
+	11	za	za	ADP				Acc																								Prep			RR--4----------	12	case	_	_
+	12	chvíli	chvíle	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	13	obl	_	_
+	13	ustali	ustat	VERB	Masc	Anim	Plur			Part			Past	Act	3								Pos												VpMP---XR-AA---	4	acl	_	SpaceAfter=No
+	14	;	;	PUNCT																															Z:-------------	13	punct	_	_
+	15	byli	být	AUX	Masc	Anim	Plur			Part			Past	Act	3								Pos												VpMP---XR-AA---	16	cop	_	_
+	16	umdleni	umdlený	ADJ	Masc	Anim	Plur														Short		Pos												ACMP------A----	0	root	_	SpaceAfter=No
+	17	.	.	PUNCT																															Z:-------------	16	punct	_	_
+																																							
+	# sent_id = 32																																						
+	# text = Jeli s kopce dolů, a zas je vedla cesta do vrchu.																																						
+	1	Jeli	jít	VERB	Masc	Anim	Plur			Part			Past	Act	3								Pos												VpMP---XR-AA---	0	root	_	_
+	2	s	s	ADP				Ins																								Prep			RR--7----------	3	case	_	_
+	3	kopce	kopec	NOUN	Masc	Inan	Plur	Acc															Pos												NNIP4-----A----	1	obl	_	_
+	4	dolů	dolů	ADV																															Db-------------	1	advmod	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	9	punct	_	_
+	6	a	a	CCONJ																															J^-------------	9	cc	_	_
+	7	zas	zas	ADV																															Db-------------	9	advmod	_	_
+	8	je	on	PRON			Plur	Acc							3	Prs																			PPXP4--3-------	9	obj	_	_
+	9	vedla	vést	VERB	Fem,Neut		Plur,Sing			Part			Past	Act	3								Pos												VpQW---XR-AA---	1	conj	_	_
+	10	cesta	cesta	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	9	nsubj	_	_
+	11	do	do	ADP				Gen																								Prep			RR--2----------	12	case	_	_
+	12	vrchu	vrch	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	10	nmod	_	SpaceAfter=No
+	13	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 33																																						
+	# text = Tu se uhýbala kolem výběžku černého lesa.																																						
+	1	Tu	ten	DET	Fem		Sing	Acc								Dem																			PDFS4----------	3	obj	_	_
+	2	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	3	expl:pv	_	_
+	3	uhýbala	uhýbat	VERB	Fem,Neut		Plur,Sing			Part			Past	Act	3								Pos												VpQW---XR-AA---	0	root	_	_
+	4	kolem	kolem	ADP				Gen																								Prep			RR--2----------	5	case	_	_
+	5	výběžku	výběžek	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	3	obl	_	_
+	6	černého	černý	ADJ	Masc	Inan	Sing	Gen														Pos	Pos												AAIS2----1A----	7	amod	_	_
+	7	lesa	les	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	5	nmod	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	3	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 34																																						
+	# text = „Stavení!“ vzkřikl jezdec po levici a chvatně ukazoval rukou ve stranu tu, kde temné obrysy lomenice a střechy se jevily.																																						
+	1	„	„	PUNCT																															Z:-------------	5	punct	_	SpaceAfter=No
+	2	Stavení	stavení	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	5	dep	_	SpaceAfter=No
+	3	!	!	PUNCT																															Z:-------------	2	punct	_	SpaceAfter=No
+	4	“	“	PUNCT																															Z:-------------	2	punct	_	_
+	5	vzkřikl	vzkřiknout	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA--1	0	root	_	_
+	6	jezdec	jezdec	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	5	nsubj	_	_
+	7	po	po	ADP				Loc																								Prep			RR--6----------	8	case	_	_
+	8	levici	levice	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	5	obl	_	_
+	9	a	a	CCONJ																															J^-------------	11	cc	_	_
+	10	chvatně	chvatně	ADV																		Pos	Pos												Dg-------1A----	11	advmod	_	_
+	11	ukazoval	ukazovat	VERB	Masc		Sing			Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	5	conj	_	_
+	12	rukou	ruka	NOUN	Fem		Plur	Loc															Pos												NNFP6-----A----	11	obj	_	_
+	13	ve	v	ADP				Loc																								Voc			RV--6----------	14	case	_	_
+	14	stranu	strana	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	11	obl	_	_
+	15	tu	tady	ADV												Dem																			Db------------1	11	advmod	_	SpaceAfter=No
+	16	,	,	PUNCT																															Z:-------------	24	punct	_	_
+	17	kde	kde	ADV												Int,Rel																			Db-------------	24	advmod	_	_
+	18	temné	temný	ADJ	Masc	Inan	Plur	Nom														Pos	Pos												AAIP4----1A----	19	amod	_	_
+	19	obrysy	obrys	NOUN	Masc	Inan	Plur	Nom															Pos												NNIP4-----A----	24	obj	_	_
+	20	lomenice	lomenice	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	19	nmod	_	_
+	21	a	a	CCONJ																															J^-------------	22	cc	_	_
+	22	střechy	střecha	NOUN	Fem		Sing	Gen															Pos												NNFP1-----A----	19	conj	_	_
+	23	se	se	PRON												Prs		Reflex			Short														P7-X4----------	24	expl:pv	_	_
+	24	jevily	jevit	VERB	Fem,Masc	Inan	Plur			Part	Perf		Past	Act	3								Pos												VpTP---XR-AA---	11	ccomp	_	SpaceAfter=No
+	25	.	.	PUNCT																															Z:-------------	5	punct	_	_
+																																							
+	# sent_id = 35																																						
+	# text = Uviděli též korunu rozložitého stromu, pak i druhou střechu.																																						
+	1	Uviděli	uvidět	VERB	Masc	Anim	Plur			Part			Past	Act									Pos												VpMP---XR-AA---	0	root	_	_
+	2	též	též	ADV																															Db-------------	3	advmod:emph	_	_
+	3	korunu	koruna	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	1	obj	_	_
+	4	rozložitého	rozložitý	ADJ	Masc	Inan	Sing	Gen														Pos	Pos												AAIS2----1A----	5	amod	_	_
+	5	stromu	strom	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	3	nmod	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	7	punct	_	_
+	7	pak	pak	ADV																															Db-------------	1	conj	_	_
+	8	i	i	CCONJ																															J^-------------	10	advmod:emph	_	_
+	9	druhou	druhý	ADJ	Fem		Sing	Acc																Ord											CrFS4----------	10	amod	_	_
+	10	střechu	střecha	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	7	orphan	_	SpaceAfter=No
+	11	.	.	PUNCT																															Z:-------------	1	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 36																																						
+	# text = „Konečně!“ zahučel jezdec po pravici a sebrav citelně svého hnědouše, uháněl přímo ku stavení; průvodce jeho za ním.																																						
+	1	„	„	PUNCT																															Z:-------------	5	punct	_	SpaceAfter=No
+	2	Konečně	konečně	ADV																		Pos	Pos												Dg-------1A----	5	advmod	_	SpaceAfter=No
+	3	!	!	PUNCT																															Z:-------------	2	punct	_	SpaceAfter=No
+	4	“	“	PUNCT																															Z:-------------	2	punct	_	_
+	5	zahučel	zahučet	VERB	Masc		Sing			Part			Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	_
+	6	jezdec	jezdec	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	5	nsubj	_	_
+	7	po	po	ADP				Loc																								Prep			RR--6----------	8	case	_	_
+	8	pravici	pravice	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	5	obl	_	_
+	9	a	a	CCONJ																															J^-------------	10	cc	_	_
+	10	sebrav	sebrat	VERB						Conv			Přes										Pos												NNFP2-----A----	8	conj	_	_
+	11	citelně	citelně	ADV																		Pos	Pos												Dg-------1A----	5	obj	_	_
+	12	svého	svůj	DET	Masc,Neut		Sing	Gen								Prs	Poss	Reflex																	P8ZS2----------	13	det	_	_
+	13	hnědouše	hnědouš	NOUN	Masc	Anim	Sing	Gen															Pos												NNFS2-----A----	11	nmod	_	SpaceAfter=No
+	14	,	,	PUNCT																															Z:-------------	15	punct	_	_
+	15	uháněl	uhánět	VERB	Masc		Sing			Part			Past	Act	3								Pos												VpYS---XR-AA---	5	conj	_	_
+	16	přímo	přímo	ADV																		Pos	Pos												Dg-------1A----	18	advmod:emph	_	_
+	17	ku	k	ADP				Dat																								Voc			RV--3---------1	18	case	_	_
+	18	stavení	stavení	NOUN	Neut		Sing	Dat															Pos												NNNS4-----A----	15	obl	_	SpaceAfter=No
+	19	;	;	PUNCT																															Z:-------------	15	punct	_	_
+	20	průvodce	průvodce	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	15	nsubj	_	_
+	21	jeho	jeho	DET											3	Prs	Poss		Masc,Neut	Sing															PSXXXZS3-------	20	det	_	_
+	22	za	za	ADP				Ins																								Prep			RR--7----------	23	case	_	_
+	23	ním	on	PRON	Masc,Neut		Sing	Ins	Pre						3	Prs																			P5ZS7--3-------	21	nmod	_	SpaceAfter=No
+	24	.	.	PUNCT																															Z:-------------	5	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 37																																						
+	# text = Brzo zastavili se u dvou stavení, z nichž jedno chatrná byla chalupa, čelem hleděla k úzké silnici.																																						
+	1	Brzo	brzy	ADV																		Pos	Pos												Dg-------1A---1	2	advmod	_	_
+	2	zastavili	zastavit	VERB	Masc	Anim	Plur			Part	Perf		Past	Act	3								Pos												VpMP---XR-AA---	0	root	_	_
+	3	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	2	expl:pv	_	_
+	4	u	u	ADP				Gen																								Prep			RR--2----------	6	case	_	_
+	5	dvou	dva	NUM			Plur	Gen																Card	Word	1,2,3									ClXP2----------	6	nummod	_	_
+	6	stavení	stavení	NOUN	Neut		Plur	Gen															Pos												NNNP2-----A----	2	obl	_	SpaceAfter=No
+	7	,	,	PUNCT																															Z:-------------	10	punct	_	_
+	8	z	z	ADP				Gen																								Prep			RR--2----------	9	case	_	_
+	9	nichž	jenž	PRON			Plur	Gen	Pre							Rel																			P9XP2----------	10	nmod	_	_
+	10	jedno	jeden	NUM	Neut		Sing	Nom																Card	Word	1,2,3									ClNS1----------	6	acl	_	_
+	11	chatrná	chatrný	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	10	amod	_	_
+	12	byla	být	AUX	Fem,Neut		Plur,Sing			Part			Past	Act									Pos												VpQW---XR-AA---	10	cop	_	_
+	13	chalupa	chalupa	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	10	nsubj	_	SpaceAfter=No
+	14	,	,	PUNCT																															Z:-------------	16	punct	_	_
+	15	čelem	čelo	NOUN	Neut		Sing	Ins															Pos												NNNS7-----A----	16	obl	_	_
+	16	hleděla	hledět	VERB	Fem,Neut		Plur,Sing			Part			Past	Act	3								Pos												VpQW---XR-AA---	13	acl	_	_
+	17	k	k	ADP				Dat																								Prep			RR--3----------	19	case	_	_
+	18	úzké	úzký	ADJ	Fem		Sing	Dat														Pos	Pos												AAFS3----1A----	19	amod	_	_
+	19	silnici	silnice	NOUN	Fem		Sing	Dat															Pos												NNFS3-----A----	16	obl	_	SpaceAfter=No
+	20	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 38																																						
+	# text = Druhé byla stodola.																																						
+	1	Druhé	druhý	ADJ	Neut		Plur	Nom																Ord											CrFP1----------	0	root	_	_
+	2	byla	být	AUX	Fem,Neut		Plur,Sing			Part			Past	Act									Pos												VpQW---XR-AA---	1	cop	_	_
+	3	stodola	stodola	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	1	nsubj	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 39																																						
+	# text = Budovy ty souběžně vystavěné spojovala kamenná, klenutá brána.																																						
+	1	Budovy	budova	NOUN	Fem		Plur	Acc															Pos												NNFP4-----A----	5	obj	_	_
+	2	ty	ten	DET	Fem		Plur	Acc								Dem																			PDFP4----------	5	obj	_	_
+	3	souběžně	souběžně	ADV																		Pos	Pos												Dg-------1A----	4	advmod	_	_
+	4	vystavěné	vystavěný	ADJ	Masc	Inan	Plur	Nom														Pos	Pos												AAIP1----1A----	1	amod	_	_
+	5	spojovala	spojovat	VERB	Fem,Neut		Plur,Sing			Part	Imp		Past	Act									Pos												VpQW---XR-AA---	0	root	_	_
+	6	kamenná	kamenný	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	9	amod	_	SpaceAfter=No
+	7	,	,	PUNCT																															Z:-------------	8	punct	_	_
+	8	klenutá	klenutý	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	6	conj	_	_
+	9	brána	brána	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	5	nsubj	_	SpaceAfter=No
+	10	.	.	PUNCT																															Z:-------------	5	punct	_	_
+																																							
+	# sent_id = 40																																						
+	# text = Byl to statek.																																						
+	1	Byl	být	AUX	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	3	cop	_	_
+	2	to	ten	DET	Neut		Sing	Nom								Dem																			PDNS1----------	3	nsubj	_	_
+	3	statek	statek	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	0	root	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	3	punct	_	_
+																																							
+	# sent_id = 41																																						
+	# text = Na doškových střechách a na bráně spočívala tlustá vrstva sněhu.																																						
+	1	Na	na	ADP				Loc																								Prep			RR--6----------	3	case	_	_
+	2	doškových	doškový	ADJ	Fem		Plur	Loc														Pos	Pos												AAFP6----1A----	3	amod	_	_
+	3	střechách	střecha	NOUN	Fem		Plur	Loc															Pos												NNFP6-----A----	7	obl	_	_
+	4	a	a	CCONJ																															J^-------------	6	cc	_	_
+	5	na	na	ADP				Loc																								Prep			RR--6----------	6	case	_	_
+	6	bráně	brána	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	3	conj	_	_
+	7	spočívala	spočívat	VERB	Fem,Neut		Plur,Sing			Part	Imp		Past	Act	3								Pos												VpQW---XR-AA---	0	root	_	_
+	8	tlustá	tlustý	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	9	amod	_	_
+	9	vrstva	vrstva	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	7	nsubj	_	_
+	10	sněhu	sníh	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	9	nmod	_	SpaceAfter=No
+	11	.	.	PUNCT																															Z:-------------	7	punct	_	_
+																																							
+	# sent_id = 42																																						
+	# text = Cesty ku bráně nebylo, skryla se pod sněhem.																																						
+	1	Cesty	cesta	NOUN	Fem		Sing	Gen															Pos												NNFP1-----A----	4	nsubj	_	_
+	2	ku	k	ADP				Dat																								Voc			RV--3---------1	3	case	_	_
+	3	bráně	brána	NOUN	Fem		Sing	Dat															Pos												NNFS3-----A----	1	nmod	_	_
+	4	nebylo	být	VERB	Neut		Sing			Part			Past	Act									Neg												VpNS---XR-NA---	0	root	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	6	punct	_	_
+	6	skryla	skrýt	VERB	Fem,Neut		Plur,Sing			Part			Past	Act	3								Pos												VpQW---XR-AA---	4	conj	_	_
+	7	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	6	expl:pv	_	_
+	8	pod	pod	ADP				Ins																								Prep			RR--7----------	9	case	_	_
+	9	sněhem	sníh	NOUN	Masc	Inan	Sing	Ins															Pos												NNIS7-----A----	6	obl	_	SpaceAfter=No
+	10	.	.	PUNCT																															Z:-------------	4	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 43																																						
+	# text = Jezdcové zajeli vysokou závějí ku bráně; koně jejich zařehtali.																																						
+	1	Jezdcové	jezdec	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A---1	2	nsubj	_	_
+	2	zajeli	zajet	VERB	Masc	Anim	Plur			Part			Past	Act	3								Pos												VpMP---XR-AA---	0	root	_	_
+	3	vysokou	vysoký	ADJ	Fem		Sing	Ins														Pos	Pos												AAFS4----1A----	4	amod	_	_
+	4	závějí	závěj	NOUN	Fem		Sing	Ins		Fin	Imp	Ind	Pres	Act	3								Pos												VB-P---3P-AA---	2	xcomp	_	_
+	5	ku	k	ADP				Dat																								Voc			RV--3---------1	6	case	_	_
+	6	bráně	brána	NOUN	Fem		Sing	Dat															Pos												NNFS3-----A----	4	obl	_	SpaceAfter=No
+	7	;	;	PUNCT																															Z:-------------	10	punct	_	_
+	8	koně	kůň	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A----	10	nsubj	_	_
+	9	jejich	jeho	DET											3	Prs	Poss			Plur															PSXXXXP3-------	8	det	_	_
+	10	zařehtali	zařehtat	VERB	Masc	Anim	Plur			Part			Past	Act									Pos												VpMP---XR-AA---	4	conj	_	SpaceAfter=No
+	11	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 44																																						
+	# text = Vrat nebylo.																																						
+	1	Vrat	vrata	NOUN			Sing	Gen		Inf	Imp												Pos												Vf--------A----	0	root	_	_
+	2	nebylo	být	AUX	Neut		Sing			Part			Past	Act									Neg												VpNS---XR-NA---	1	aux	_	SpaceAfter=No
+	3	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 45																																						
+	# text = Uprostřed dvoru rozkládala holou korunu svou stará lípa, pod níž se jezdcové zastavili.																																						
+	1	Uprostřed	uprostřed	ADV																															Db-------------	2	case	_	_
+	2	dvoru	dvůr	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	3	obl	_	_
+	3	rozkládala	rozkládat	VERB	Fem,Neut		Plur,Sing			Part	Imp		Past	Act									Pos												VpQW---XR-AA---	0	root	_	_
+	4	holou	holý	ADJ	Fem		Sing	Acc														Pos	Pos												AAFS4----1A----	5	amod	_	_
+	5	korunu	koruna	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	3	iobj	_	_
+	6	svou	svůj	DET	Fem		Sing	Acc								Prs	Poss	Reflex																	P8FS4---------1	8	det	_	_
+	7	stará	starý	ADJ	Fem		Sing	Nom														Pos	Pos												AANP4----1A----	8	amod	_	_
+	8	lípa	lípa	NOUN	Fem		Sing	Nom															Pos												NNNP4-----A----	3	obj	_	SpaceAfter=No
+	9	,	,	PUNCT																															Z:-------------	14	punct	_	_
+	10	pod	pod	ADP				Ins																								Prep			RR--7----------	11	case	_	_
+	11	níž	jenž	PRON	Fem		Sing	Ins	Pre							Rel																			P9FS7----------	14	obl	_	_
+	12	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	14	expl:pv	_	_
+	13	jezdcové	jezdec	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A---1	14	nsubj	_	_
+	14	zastavili	zastavit	VERB	Masc	Anim	Plur			Part	Perf		Past	Act	3								Pos												VpMP---XR-AA---	8	acl	_	SpaceAfter=No
+	15	.	.	PUNCT																															Z:-------------	3	punct	_	_
+																																							
+	# sent_id = 46																																						
+	# text = Průvodce hlasitě zahoukal.																																						
+	1	Průvodce	průvodce	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	3	nsubj	_	_
+	2	hlasitě	hlasitě	ADV																		Pos	Pos												Dg-------1A----	3	advmod	_	_
+	3	zahoukal	zahoukat	VERB	Masc		Sing			Part	Perf		Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	3	punct	_	_
+																																							
+	# sent_id = 47																																						
+	# text = Sníh padal a v haluzích ozývaly se vzdechy větru.																																						
+	1	Sníh	sníh	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	2	nsubj	_	_
+	2	padal	padat	VERB	Masc		Sing			Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	_
+	3	a	a	CCONJ																															J^-------------	6	cc	_	_
+	4	v	v	ADP				Loc																								Prep			RR--6----------	5	case	_	_
+	5	haluzích	haluze	NOUN	Fem		Plur	Loc															Pos												NNFP6-----A----	6	obl	_	_
+	6	ozývaly	ozývat	VERB	Fem,Masc	Inan	Plur			Part	Imp		Past	Act	3								Pos												VpTP---XR-AA---	2	conj	_	_
+	7	se	s	ADP				Ins																								Voc			RV--7----------	8	case	_	_
+	8	vzdechy	vzdech	NOUN	Masc	Inan	Plur	Nom															Pos												NNIP7-----A----	6	obl:arg	_	_
+	9	větru	vítr	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	8	nmod	_	SpaceAfter=No
+	10	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 48																																						
+	# text = Podruhé se rozkřikl.																																						
+	1	Podruhé	podruhé	ADV																				Ord											Cv-------------	3	obl	_	_
+	2	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	3	expl:pv	_	_
+	3	rozkřikl	rozkřiknout	VERB	Masc		Sing			Part	Perf		Past	Act	3								Pos												VpYS---XR-AA--1	0	root	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	3	punct	_	_
+																																							
+	# sent_id = 49																																						
+	# text = Však nikdo se neozval, hostinný hospodář na záspi se neobjevil.																																						
+	1	Však	však	CCONJ																															J^-------------	4	cc	_	_
+	2	nikdo	nikdo	PRON	Masc	Anim		Nom								Neg																			PWM-1----------	4	nsubj	_	_
+	3	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	4	expl:pv	_	_
+	4	neozval	ozvat	VERB	Masc		Sing			Part			Past	Act	3								Neg												VpYS---XR-NA---	0	root	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	11	punct	_	_
+	6	hostinný	hostinný	ADJ	Masc	Anim	Sing	Nom														Pos	Pos												AAMS1----1A----	7	amod	_	_
+	7	hospodář	hospodář	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	11	nsubj	_	_
+	8	na	na	ADP				Loc																								Prep			RR--6----------	9	case	_	_
+	9	záspi	zásep	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	7	nmod	_	_
+	10	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	11	expl:pv	_	_
+	11	neobjevil	objevit	VERB	Masc		Sing			Part	Perf		Past	Act	3								Neg												VpYS---XR-NA---	4	conj	_	SpaceAfter=No
+	12	.	.	PUNCT																															Z:-------------	4	punct	_	_
+																																							
+	# sent_id = 50																																						
+	# text = Pak prosil druhého jezdce:																																						
+	1	Pak	pak	ADV																															Db-------------	2	advmod	_	_
+	2	prosil	prosit	VERB	Masc		Sing			Part	Perf		Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	_
+	3	druhého	druhý	ADJ	Masc	Anim	Sing	Acc																Ord											CrMS4----------	4	amod	_	_
+	4	jezdce	jezdec	NOUN	Masc	Anim	Plur	Acc															Pos												NNMP4-----A----	2	obj	_	SpaceAfter=No
+	5	:	:	PUNCT																															Z:-------------	2	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 51																																						
+	# text = „Račiž Vaše Jasnost tu pod přístřeším posečkati, já ty chámy zburcuji!																																						
+	1	„	„	PUNCT																															Z:-------------	8	punct	_	SpaceAfter=No
+	2	Račiž	Račiž	VERB																															Db-------------	8	advmod	_	_
+	3	Vaše	váš	DET	Fem,Neut		Sing	Nom							2	Prs	Poss			Plur															PSHS1-P2-------	4	det	_	_
+	4	Jasnost	Jasnost	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	8	nsubj:pass	_	_
+	5	tu	tady	ADV												Dem																			Db------------1	8	advmod	_	_
+	6	pod	pod	ADP				Acc																								Prep			RR--4----------	8	case	_	_
+	7	přístřeším	přístřeší	NOUN	Neut		Sing	Loc														Pos	Pos												AAIS6----1A----	8	amod	_	_
+	8	posečkati	posečkat	VERB						Inf											Short		Pos												VsMP---XX-AP---	0	root	_	SpaceAfter=No
+	9	,	,	PUNCT																															Z:-------------	13	punct	_	_
+	10	já	já	PRON			Sing	Nom							1	Prs																			PP-S1--1-------	13	nsubj	_	_
+	11	ty	ten	DET	Masc	Inan	Plur	Acc								Dem																			PDIP1----------	12	det	_	_
+	12	chámy	chám	NOUN	Masc	Inan	Plur	Acc															Pos												NNIP1-----A----	13	obj	_	_
+	13	zburcuji	zburcovat	VERB			Sing			Fin	Imp	Ind	Pres	Act	1								Pos												VB-S---1P-AA--1	8	conj	_	SpaceAfter=No
+	14	!	!	PUNCT																															Z:-------------	8	punct	_	SpaceAfter=No
+																																							
+	# sent_id = 52																																						
+	# text = “ A usmál se.																																						
+	1	“	“	PUNCT																															Z:-------------	3	punct	_	_
+	2	A	a	CCONJ																															J^-------------	3	cc	_	_
+	3	usmál	usmát	VERB	Masc		Sing			Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	_
+	4	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	3	expl:pv	_	SpaceAfter=No
+	5	.	.	PUNCT																															Z:-------------	3	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 53																																						
+	# text = „Počkej, to si dopřeju sám!																																						
+	1	„	„	PUNCT																															Z:-------------	2	punct	_	SpaceAfter=No
+	2	Počkej	počkat	VERB								Imperativ											Pos												NNIP1-----A----	0	root	_	SpaceAfter=No
+	3	,	,	PUNCT																															Z:-------------	6	punct	_	_
+	4	to	ten	DET	Neut		Sing	Acc								Dem																			PDNS4----------	6	det	_	_
+	5	si	se	PRON				Dat								Prs		Reflex			Short														P7-X3----------	6	obl	_	_
+	6	dopřeju	dopřát	VERB			Sing				Perf		Fut	Act	1								Pos												NNIS2-----A----	2	appos	_	_
+	7	sám	sám	DET	Masc		Sing	Nom								Emp																			PLYS1----------	4	xcomp	_	SpaceAfter=No
+	8	!	!	PUNCT																															Z:-------------	2	punct	_	SpaceAfter=No
+																																							
+	# sent_id = 54																																						
+	# text = “																																						
+	1	“	“	PUNCT																															Z:-------------	0	root	_	_
+																																							
+	# sent_id = 55																																						
+	# text = A již se vyhoupl se sedla a odevzdal úzdu svému pobočníku.																																						
+	1	A	a	CCONJ																															J^-------------	4	cc	_	_
+	2	již	již	ADV																															Db-------------	4	advmod	_	_
+	3	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	4	expl:pv	_	_
+	4	vyhoupl	vyhoupnout	VERB	Masc		Sing			Part	Perf		Past	Act	3								Pos												VpYS---XR-AA--1	0	root	_	_
+	5	se	se	ADP												Prs		Reflex			Short														P7-X4----------	6	expl:pv	_	_
+	6	sedla	sedlo	NOUN	Neut		Sing	Gen															Pos												VpQW---XR-AA--1	4	xcomp	_	_
+	7	a	a	CCONJ																															J^-------------	8	cc	_	_
+	8	odevzdal	odevzdat	VERB	Masc		Sing			Part	Perf		Past	Act	3								Pos												VpYS---XR-AA---	4	conj	_	_
+	9	úzdu	úzda	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	8	obj	_	_
+	10	svému	svůj	DET	Masc,Neut		Sing	Dat								Prs	Poss	Reflex																	P8ZS3----------	11	det	_	_
+	11	pobočníku	pobočník	NOUN	Masc	Anim	Sing	Dat															Pos												NNIS2-----A----	9	nmod	_	SpaceAfter=No
+	12	.	.	PUNCT																															Z:-------------	4	punct	_	_
+																																							
+	# sent_id = 56																																						
+	# text = Vytasiv dlouhý, úzký kord kráčel ku stavení.																																						
+	1	Vytasiv	vytasit	VERB						Conv													Pos												NNIS1-----A----	6	nsubj	_	_
+	2	dlouhý	dlouhý	ADJ	Masc	Inan	Sing	Acc														Pos	Pos												AAIS1----1A----	1	amod	_	SpaceAfter=No
+	3	,	,	PUNCT																															Z:-------------	5	punct	_	_
+	4	úzký	úzký	ADJ	Masc	Inan	Sing	Acc														Pos	Pos												AAIS1----1A----	5	amod	_	_
+	5	kord	kord	NOUN	Masc	Inan	Sing	Acc															Pos												NNIS1-----A----	1	appos	_	_
+	6	kráčel	kráčet	VERB	Masc	Anim	Sing			Part	Imp		Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	_
+	7	ku	k	ADP				Dat																								Voc			RV--3---------1	8	case	_	_
+	8	stavení	stavení	NOUN	Neut		Sing	Dat															Pos												NNNS4-----A----	6	obl	_	SpaceAfter=No
+	9	.	.	PUNCT																															Z:-------------	6	punct	_	_
+																																							
+	# sent_id = 57																																						
+	# text = Po záspi řinčely ostruhy jeho jízdeckých bot.																																						
+	1	Po	po	ADP				Loc																								Prep			RR--6----------	2	case	_	_
+	2	záspi	zásep	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	0	root	_	_
+	3	řinčely	řinčet	VERB	Fem		Plur			Part	Imp		Past	Act	3								Pos												NNFS2-----A----	2	nmod	_	_
+	4	ostruhy	ostruha	NOUN	Fem		Plur	Nom															Pos												NNFS2-----A----	3	nmod	_	_
+	5	jeho	jeho	DET											3	Prs	Poss		Masc,Neut	Sing															PSXXXZS3-------	7	det	_	_
+	6	jízdeckých	jízdecký	ADJ	Fem		Plur	Gen														Pos	Pos												AAFP2----1A----	7	amod	_	_
+	7	bot	bota	NOUN	Fem		Plur	Gen															Pos												NNFP2-----A----	4	nmod	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 58																																						
+	# text = Kopl do branky a octl se ve tmavé síni.																																						
+	1	Kopl	kopnout	VERB	Masc	Anim	Sing			Part	Perf		Past	Act	3								Pos											Sur	NNMS1-----A----	0	root	_	_
+	2	do	do	ADP				Gen																								Prep			RR--2----------	3	case	_	_
+	3	branky	branka	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	1	nmod	_	_
+	4	a	a	CCONJ																															J^-------------	5	cc	_	_
+	5	octl	octnout	VERB	Masc		Sing			Part	Perf		Past	Act	3								Pos												VpYS---XR-AA--1	1	conj	_	_
+	6	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	5	expl:pv	_	_
+	7	ve	v	ADP				Loc																								Voc			RV--6----------	9	case	_	_
+	8	tmavé	tmavý	ADJ	Fem		Sing	Loc														Pos	Pos												AAFS2----1A----	9	amod	_	_
+	9	síni	síň	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	5	obl	_	SpaceAfter=No
+	10	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 59																																						
+	# text = Nahmatal konečně dvéře.																																						
+	1	Nahmatal	nahmatat	VERB	Masc	Anim	Sing	Nom															Pos											Sur	NNMS1-----A----	3	nsubj	_	_
+	2	konečně	konečně	ADV																		Pos	Pos												Dg-------1A----	3	advmod	_	_
+	3	dvéře	dvéře	NOUN																															VB-S---3P-AA---	0	root	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	3	punct	_	_
+																																							
+	# sent_id = 60																																						
+	# text = Stanul v nízké, zasmušilé jizbě, jejíž tmavé, nebílené stěny tu a tam kouřem byly začazeny.																																						
+	1	Stanul	stanout	VERB	Masc	Anim	Sing			Part			Past	Act	3								Pos												VpYS---XR-AA---	0	root	_	_
+	2	v	v	ADP				Loc																								Prep			RR--6----------	3	case	_	_
+	3	nízké	nízký	ADJ	Fem		Sing	Loc														Pos	Pos												AAFS6----1A----	1	obl	_	SpaceAfter=No
+	4	,	,	PUNCT																															Z:-------------	6	punct	_	_
+	5	zasmušilé	zasmušilý	ADJ	Fem		Sing	Loc														Pos	Pos												AAFP1----1A----	6	amod	_	_
+	6	jizbě	jizba	NOUN	Fem		Sing	Loc																Card	Word	1,2,3									ClHP1----------	1	nsubj	_	SpaceAfter=No
+	7	,	,	PUNCT																															Z:-------------	16	punct	_	_
+	8	jejíž	jenž	DET	Fem		Sing								3	Rel	Poss		Fem	Sing															P1FSXFS3-------	12	det	_	_
+	9	tmavé	tmavý	ADJ	Fem		Plur	Nom														Pos	Pos												AAFP1----1A----	12	amod	_	SpaceAfter=No
+	10	,	,	PUNCT																															Z:-------------	11	punct	_	_
+	11	nebílené	bílený	ADJ	Fem		Plur	Nom														Pos	Pos												AAFP1----1A----	9	conj	_	_
+	12	stěny	stěna	NOUN	Fem		Plur	Nom															Pos												NNFP1-----A----	16	nsubj	_	_
+	13	tu	tady	ADV												Dem																			Db------------1	16	advmod	_	_
+	14	a	a	CCONJ																															J^-------------	15	cc	_	_
+	15	tam	tam	ADV												Dem																			Db-------------	13	conj	_	_
+	16	kouřem	kouř	NOUN	Masc	Inan	Sing	Ins															Pos												NNMS7-----A----	6	appos	_	_
+	17	byly	být	AUX	Fem,Masc	Inan	Plur			Part			Past	Act	3								Pos												VpTP---XR-AA---	18	aux:pass	_	_
+	18	začazeny	začazený	ADJ	Fem,Masc	Inan	Plur			Part				Pass							Short		Pos												VsTP---XX-AP---	1	obj	_	SpaceAfter=No
+	19	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 61																																						
+	# text = Šero tu nad světlem vítězilo.																																						
+	1	Šero	šero	PROPN	Neut		Sing	Nom															Pos											Geo	NNNS1-----A----	5	nsubj	_	_
+	2	tu	tady	ADV												Dem																			Db------------1	5	advmod	_	_
+	3	nad	nad	ADP				Ins																								Prep			RR--7----------	4	case	_	_
+	4	světlem	světlo	NOUN	Neut		Sing	Ins															Pos												NNNS7-----A----	2	obl	_	_
+	5	vítězilo	vítězit	VERB	Neut		Sing			Part	Perf		Past	Act									Pos												VpNS---XR-AA---	0	root	_	SpaceAfter=No
+	6	.	.	PUNCT																															Z:-------------	5	punct	_	_
+																																							
+	# sent_id = 62																																						
+	# text = V jizbě nebylo živé duše.																																						
+	1	V	v	ADP				Loc																								Prep			RR--6----------	2	case	_	_
+	2	jizbě	jizba	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	5	obl	_	_
+	3	nebylo	být	AUX	Neut		Sing			Part			Past	Act									Neg												VpNS---XR-NA---	5	cop	_	_
+	4	živé	živý	ADJ	Neut		Sing	Nom														Pos	Pos												AANS1----1A----	5	amod	_	_
+	5	duše	duše	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	0	root	_	SpaceAfter=No
+	6	.	.	PUNCT																															Z:-------------	5	punct	_	_
+																																							
+	# sent_id = 63																																						
+	# text = Jezdec setřásl s pláště a s třírohového stříbrem lemovaného kloboučku sníh a rozhlížel se kolem.																																						
+	1	Jezdec	jezdec	PROPN	Masc	Inan	Sing	Nom															Pos											Geo	NNIS1-----A----	2	nsubj	_	_
+	2	setřásl	setřást	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	3	s	s	ADP				Ins																								Prep			RR--7----------	4	case	_	_
+	4	pláště	plášť	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	2	obl	_	_
+	5	a	a	CCONJ																															J^-------------	8	cc	_	_
+	6	s	s	ADP				Ins																								Prep			RR--7----------	8	case	_	_
+	7	třírohového	třírohový	ADJ	Masc	Inan	Sing	Gen														Pos	Pos												AAIS2----1A----	8	amod	_	_
+	8	stříbrem	stříbro	NOUN	Masc	Inan	Sing	Ins															Pos												NNIS7-----A----	4	conj	_	_
+	9	lemovaného	lemovaný	ADJ	Masc	Inan	Sing	Gen														Pos	Pos												AAIS2----1A----	10	amod	_	_
+	10	kloboučku	kloboučka	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	8	nmod	_	_
+	11	sníh	sníh	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	2	obj	_	_
+	12	a	a	CCONJ																															J^-------------	13	cc	_	_
+	13	rozhlížel	rozhlížet	VERB	Masc		Sing			Part	Imp		Past	Act									Pos												VpYS---XR-AA---	2	conj	_	_
+	14	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	13	expl:pv	_	_
+	15	kolem	kolem	ADV																															Db-------------	13	advmod	_	SpaceAfter=No
+	16	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 64																																						
+	# text = V koutě veliká kamna, studená jako venku sníh; u okna stál starý stůl, jehož křížové, široké trnože měly zářezy různých tvarů;																																						
+	1	V	v	ADP				Loc																								Prep			RR--6----------	2	case	_	_
+	2	koutě	kout	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	3	obl	_	_
+	3	veliká	veliký	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	4	amod	_	_
+	4	kamna	kamna	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	13	nsubj	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	9	punct	_	_
+	6	studená	studený	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	9	amod	_	_
+	7	jako	jako	SCONJ																															J,-------------	8	mark	_	_
+	8	venku	venka	ADV																															Db-------------	6	advcl	_	_
+	9	sníh	sníh	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	4	appos	_	SpaceAfter=No
+	10	;	;	PUNCT																															Z:-------------	9	punct	_	_
+	11	u	u	ADP				Gen																								Prep			RR--2----------	12	case	_	_
+	12	okna	okno	NOUN	Neut		Sing	Gen															Pos												NNNS2-----A----	9	nmod	_	_
+	13	stál	stát	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	14	starý	starý	ADJ	Masc	Inan	Sing	Nom														Pos	Pos												AAIS1----1A----	15	amod	_	_
+	15	stůl	stůl	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	13	obj	_	SpaceAfter=No
+	16	,	,	PUNCT																															Z:-------------	22	punct	_	_
+	17	jehož	jenž	PRON	Masc,Neut		Sing	Gen	Npr							Rel																			PJZS2----------	18	nmod	_	_
+	18	křížové	křížový	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A---1	22	nsubj	_	SpaceAfter=No
+	19	,	,	PUNCT																															Z:-------------	21	punct	_	_
+	20	široké	široký	ADJ	Fem		Plur	Nom														Pos	Pos												AAFP1----1A----	21	amod	_	_
+	21	trnože	trnože	NOUN	Fem		Plur	Nom															Pos												NNFP1-----A----	18	conj	_	_
+	22	měly	mít	VERB	Fem,Masc	Inan	Plur			Part			Past	Act									Pos												VpTP---XR-AA---	15	acl	_	_
+	23	zářezy	zářez	NOUN	Masc	Inan	Plur	Nom															Pos												NNIP1-----A----	22	obj	_	_
+	24	různých	různý	ADJ	Masc	Inan	Plur	Gen														Pos	Pos												AAIP2----1A----	25	amod	_	_
+	25	tvarů	tvar	NOUN	Masc	Inan	Plur	Gen															Pos												NNIP2-----A----	23	nmod	_	SpaceAfter=No
+	26	;	;	PUNCT																															Z:-------------	13	punct	_	_
+																																							
+	# sent_id = 65																																						
+	# text = uprostřed světnice stará kolébka divnými květy pomalovaná.																																						
+	1	uprostřed	uprostřed	ADV																															Db-------------	2	case	_	_
+	2	světnice	světnice	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	0	root	_	_
+	3	stará	starý	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	4	amod	_	_
+	4	kolébka	kolébka	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	2	nmod	_	_
+	5	divnými	divný	ADJ	Masc	Inan	Plur	Ins														Pos	Pos												AAIP7----1A----	6	amod	_	_
+	6	květy	květ	NOUN	Masc	Inan	Plur	Ins															Pos												NNIP7-----A----	2	nmod	_	_
+	7	pomalovaná	pomalovaný	ADJ	Fem		Sing	Nom														Pos	Pos												AAFS1----1A----	2	dep	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 66																																						
+	# text = Kde asi spočívá děcko, jež nedávno snad tu odpočívalo?																																						
+	1	Kde	kde	ADV												Int,Rel																			Db-------------	3	advmod	_	_
+	2	asi	asi	PART																															TT-------------	3	advmod	_	_
+	3	spočívá	spočívat	VERB			Sing			Fin	Imp	Ind	Pres	Act	3								Pos												VB-S---3P-AA---	0	root	_	_
+	4	děcko	děcko	NOUN	Neut		Sing	Acc															Pos												NNNS4-----A----	3	obj	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	10	punct	_	_
+	6	jež	jenž	PRON	Neut		Sing	Nom	Npr							Rel																			PJNS1----------	10	nsubj	_	_
+	7	nedávno	nedávno	ADV																															Db-------------	10	advmod	_	_
+	8	snad	snad	ADV																															Db-------------	10	advmod	_	_
+	9	tu	tady	ADV												Dem																			Db------------1	10	advmod	_	_
+	10	odpočívalo	odpočívat	VERB	Neut		Sing			Part	Imp		Past	Act									Pos												VpNS---XR-AA---	4	acl	_	SpaceAfter=No
+	11	?	?	PUNCT																															Z:-------------	3	punct	_	_
+																																							
+	# sent_id = 67																																						
+	# text = Snad ve prachových peřinkách, bílých poduškách sněhu.																																						
+	1	Snad	snad	ADV																															Db-------------	0	root	_	_
+	2	ve	v	ADP				Loc																								Voc			RV--6----------	4	case	_	_
+	3	prachových	prachový	ADJ	Fem		Plur	Loc														Pos	Pos												AAFP6----1A----	4	amod	_	_
+	4	peřinkách	peřinka	NOUN	Fem		Plur	Loc															Pos												NNFP6-----A----	1	dep	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	7	punct	_	_
+	6	bílých	bílý	ADJ	Fem		Plur	Loc														Pos	Pos												AAFP6----1A----	7	amod	_	_
+	7	poduškách	poduška	NOUN	Fem		Plur	Loc															Pos												NNFP6-----A----	4	conj	_	_
+	8	sněhu	sníh	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	7	nmod	_	SpaceAfter=No
+	9	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 68																																						
+	# text = Na polici bylo vidět několik hliněných nádob; byly prázdny.																																						
+	1	Na	na	ADP				Loc																								Prep			RR--6----------	2	case	_	_
+	2	polici	police	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	4	obl	_	_
+	3	bylo	být	AUX	Neut		Sing			Part			Past	Act									Pos												VpNS---XR-AA---	4	aux	_	_
+	4	vidět	vidět	VERB						Inf													Pos												Vf--------A----	0	root	_	_
+	5	několik	několik	DET				Acc								Ind								Card											Ca--4----------	7	det:numgov	_	_
+	6	hliněných	hliněný	ADJ	Fem		Plur	Gen														Pos	Pos												AAFP2----1A----	7	amod	_	_
+	7	nádob	nádoba	NOUN	Fem		Plur	Gen															Pos												NNFP2-----A----	4	nsubj	_	SpaceAfter=No
+	8	;	;	PUNCT																															Z:-------------	10	punct	_	_
+	9	byly	být	AUX	Fem,Masc	Inan	Plur			Part			Past	Act									Pos												VpTP---XR-AA---	10	cop	_	_
+	10	prázdny	prázden	ADJ	Masc		Plur	Acc																Sets		1									ChYP4----------	4	advcl	_	SpaceAfter=No
+	11	.	.	PUNCT																															Z:-------------	4	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 69																																						
+	# text = „Holota! lenivé plémě!“ zahučel hněvivě jezdec a odplivna si kráčel rychle ven.																																						
+	1	„	„	PUNCT																															Z:-------------	8	punct	_	SpaceAfter=No
+	2	Holota	Holota	PROPN	Masc	Anim	Sing	Nom															Pos											Sur	NNMS1-----A----	8	nsubj	_	SpaceAfter=No
+	3	!	!	PUNCT																															Z:-------------	2	punct	_	_
+	4	lenivé	lenivý	ADJ	Neut		Sing	Nom														Pos	Pos												AANS1----1A----	5	amod	_	_
+	5	plémě	plémě	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	8	obj	_	SpaceAfter=No
+	6	!	!	PUNCT																															Z:-------------	5	punct	_	SpaceAfter=No
+	7	“	“	PUNCT																															Z:-------------	5	punct	_	_
+	8	zahučel	zahučet	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	9	hněvivě	hněvivě	ADV																		Pos	Pos												Dg-------1A----	10	advmod	_	_
+	10	jezdec	jezdec	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	8	obl	_	_
+	11	a	a	CCONJ																															J^-------------	14	cc	_	_
+	12	odplivna	odplivna	ADV																															Db-------------	14	advmod	_	_
+	13	si	se	PRON				Dat								Prs		Reflex			Short														P7-X3----------	14	obl	_	_
+	14	kráčel	kráčet	VERB	Masc		Sing			Part	Imp		Past	Act									Pos												VpYS---XR-AA---	10	conj	_	_
+	15	rychle	rychle	ADV																		Pos	Pos												Dg-------1A----	16	advmod	_	_
+	16	ven	ven	ADV																															Db-------------	14	advmod	_	SpaceAfter=No
+	17	.	.	PUNCT																															Z:-------------	8	punct	_	_
+																																							
+	# sent_id = 70																																						
+	# text = Šel přes tmavou síň a naběhl do dveří, jež jakmile se jich dotkl, povolily.																																						
+	1	Šel	jít	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	2	přes	přes	ADP				Acc																								Prep			RR--4----------	4	case	_	_
+	3	tmavou	tmavý	ADJ	Fem		Sing	Acc														Pos	Pos												AAFS4----1A----	4	amod	_	_
+	4	síň	síň	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	1	obl	_	_
+	5	a	a	CCONJ																															J^-------------	6	cc	_	_
+	6	naběhl	naběhnout	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA--1	1	conj	_	_
+	7	do	do	ADP				Gen																								Prep			RR--2----------	8	case	_	_
+	8	dveří	dveře	NOUN	Fem		Plur	Gen															Pos												NNFP2-----A----	6	obl	_	SpaceAfter=No
+	9	,	,	PUNCT																															Z:-------------	14	punct	_	_
+	10	jež	jenž	PRON			Plur	Acc	Npr							Rel																			PJXP4----------	14	obj	_	_
+	11	jakmile	jakmile	SCONJ																															J,-------------	14	mark	_	_
+	12	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	14	expl:pv	_	_
+	13	jich	on	PRON			Plur	Gen							3	Prs																			PPXP2--3-------	14	obj	_	_
+	14	dotkl	dotknout	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA--1	8	acl	_	SpaceAfter=No
+	15	,	,	PUNCT																															Z:-------------	16	punct	_	_
+	16	povolily	povolit	VERB	Fem,Masc	Inan	Plur			Part	Perf		Past	Act									Pos												VpTP---XR-AA---	1	conj	_	SpaceAfter=No
+	17	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 71																																						
+	# text = Jezdec viděl před sebou temný chlév.																																						
+	1	Jezdec	jezdec	PROPN	Masc	Inan	Sing	Nom															Pos											Geo	NNIS1-----A----	2	nsubj	_	_
+	2	viděl	vidět	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	3	před	před	ADP				Ins																								Prep			RR--7----------	4	case	_	_
+	4	sebou	se	PRON				Ins								Prs		Reflex																	P6-X7----------	2	obl	_	_
+	5	temný	temný	ADJ	Masc	Inan	Sing	Acc														Pos	Pos												AAIS4----1A----	6	amod	_	_
+	6	chlév	chlév	NOUN	Masc	Inan	Sing	Acc															Pos												NNIS4-----A----	2	obj	_	SpaceAfter=No
+	7	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 72																																						
+	# text = Neovanulo ho teplo, neuvítalo ho zabečení kůzlátka.																																						
+	1	Neovanulo	Neovanout	VERB	Neut		Sing			Part			Past	Act									Pos												VpNS---XR-AA---	0	root	_	_
+	2	ho	on	PRON	Masc,Neut		Sing	Acc							3	Prs					Short														PHZS4--3-------	1	obj	_	_
+	3	teplo	tepnout	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	1	nsubj	_	SpaceAfter=No
+	4	,	,	PUNCT																															Z:-------------	5	punct	_	_
+	5	neuvítalo	uvítat	VERB	Neut		Sing			Part	Perf		Past	Act									Neg												VpNS---XR-NA---	1	conj	_	_
+	6	ho	on	PRON	Masc,Neut		Sing	Acc							3	Prs					Short														PHZS4--3-------	5	obj	_	_
+	7	zabečení	zabečení	NOUN	Neut		Sing	Gen															Pos												NNNS2-----A----	6	nmod	_	_
+	8	kůzlátka	kůzlátka	NOUN	Neut		Sing	Gen															Pos												NNNS2-----A----	7	nmod	_	SpaceAfter=No
+	9	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 73																																						
+	# text = Chlév byl pustý a studený.																																						
+	1	Chlév	chlév	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	3	nsubj	_	_
+	2	byl	být	AUX	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	3	cop	_	_
+	3	pustý	pustý	ADJ	Masc	Inan	Sing	Nom														Pos	Pos												AAIS1----1A----	0	root	_	_
+	4	a	a	CCONJ																															J^-------------	5	cc	_	_
+	5	studený	studený	ADJ	Masc	Inan	Sing	Nom														Pos	Pos												AAIS1----1A----	3	conj	_	SpaceAfter=No
+	6	.	.	PUNCT																															Z:-------------	3	punct	_	_
+																																							
+	# sent_id = 74																																						
+	# text = Rychle se obrátiv, kvapil na dvůr.																																						
+	1	Rychle	rychle	INTJ																															II-------------	0	root	_	_
+	2	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	1	expl:pv	_	_
+	3	obrátiv	obrátiv	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	1	nsubj	_	SpaceAfter=No
+	4	,	,	PUNCT																															Z:-------------	5	punct	_	_
+	5	kvapil	kvapit	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA---	1	conj	_	_
+	6	na	na	ADP				Acc																								Prep			RR--4----------	7	case	_	_
+	7	dvůr	dvůr	NOUN	Masc	Inan	Sing	Acc															Pos												NNIS4-----A----	5	obl	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 75																																						
+	# text = Pobočník upřeně na něj hleděl, jako by tázati se ho chtěl.																																						
+	1	Pobočník	Pobočník	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	5	nsubj	_	_
+	2	upřeně	upřeně	ADV																		Pos	Pos												Dg-------1A----	5	advmod	_	_
+	3	na	na	ADP				Acc																								Prep			RR--4----------	4	case	_	_
+	4	něj	on	PRON	Masc,Neut		Sing	Acc	Pre						3	Prs																			P5ZS4--3-------	5	obl:arg	_	_
+	5	hleděl	hledět	VERB	Masc		Sing			Part	Imp		Past	Act									Pos												VpYS---XR-AA---	0	root	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	12	punct	_	_
+	7	jako	jako	SCONJ																															J,-------------	12	mark	_	_
+	8	by	být	AUX						Fin		Cnd																							Vc-------------	12	aux	_	_
+	9	tázati	tázat	ADJ	Masc	Anim	Plur			Part				Pass							Short		Pos												VsMP---XX-AP---	12	xcomp	_	_
+	10	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	12	expl:pass	_	_
+	11	ho	on	PRON	Masc,Neut		Sing	Acc							3	Prs					Short														PHZS4--3-------	12	obj	_	_
+	12	chtěl	chtít	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	5	advcl	_	SpaceAfter=No
+	13	.	.	PUNCT																															Z:-------------	5	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 76																																						
+	# text = „Bestie!																																						
+	1	„	„	PUNCT																															Z:-------------	2	punct	_	SpaceAfter=No
+	2	Bestie	Bestia	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	0	root	_	SpaceAfter=No
+	3	!	!	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 77																																						
+	# text = Statek prázden, utekli z něho!“ volal pán již na záspi.																																						
+	1	Statek	statek	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	4	nsubj	_	_
+	2	prázden	prázdený	ADJ	Masc		Sing			Part				Pass							Short		Pos												VsYS---XX-AP---	1	amod	_	SpaceAfter=No
+	3	,	,	PUNCT																															Z:-------------	2	punct	_	_
+	4	utekli	utéci	VERB	Masc	Anim	Plur			Part	Perf		Past	Act									Pos												VpMP---XR-AA--1	0	root	_	_
+	5	z	z	ADP				Gen																								Prep			RR--2----------	6	case	_	_
+	6	něho	on	PRON	Masc,Neut		Sing	Gen	Pre						3	Prs																			P5ZS2--3------1	4	obl:arg	_	SpaceAfter=No
+	7	!	!	PUNCT																															Z:-------------	4	punct	_	SpaceAfter=No
+	8	“	“	PUNCT																															Z:-------------	9	punct	_	_
+	9	volal	volat	VERB	Masc		Sing			Part	Imp		Past	Act									Pos												VpYS---XR-AA---	4	conj	_	_
+	10	pán	pán	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	9	nsubj	_	_
+	11	již	již	ADV																															Db-------------	13	advmod:emph	_	_
+	12	na	na	ADP				Loc																								Prep			RR--6----------	13	case	_	_
+	13	záspi	zásp	NOUN	Fem		Sing	Loc															Pos												NNFS6-----A----	9	obl	_	SpaceAfter=No
+	14	.	.	PUNCT																															Z:-------------	4	punct	_	_
+																																							
+	# sent_id = 78																																						
+	# text = „Přijedeme do vsi?“																																						
+	1	„	„	PUNCT																															Z:-------------	2	punct	_	SpaceAfter=No
+	2	Přijedeme	Přijést	VERB			Plur			Fin		Ind	Pres	Act	1								Pos												VB-P---1P-AA---	0	root	_	_
+	3	do	do	ADP				Gen																								Prep			RR--2----------	4	case	_	_
+	4	vsi	ves	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	2	obl	_	SpaceAfter=No
+	5	?	?	PUNCT																															Z:-------------	2	punct	_	SpaceAfter=No
+	6	“	“	PUNCT																															Z:-------------	2	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 79																																						
+	# text = „Ano, Jasnosti, tuším, že jsme už v ní.																																						
+	1	„	„	PUNCT																															Z:-------------	6	punct	_	SpaceAfter=No
+	2	Ano	ano	PART																															TT-------------	6	dep	_	SpaceAfter=No
+	3	,	,	PUNCT																															Z:-------------	4	punct	_	_
+	4	Jasnosti	Jasnost	PROPN	Masc	Anim	Sing	Nom															Pos											Sur	NNMS1-----A----	2	conj	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	6	punct	_	_
+	6	tuším	tušit	VERB			Sing			Fin	Imp	Ind	Pres	Act	1								Pos												VB-S---1P-AA---	0	root	_	SpaceAfter=No
+	7	,	,	PUNCT																															Z:-------------	12	punct	_	_
+	8	že	že	SCONJ																															J,-------------	12	mark	_	_
+	9	jsme	být	AUX			Plur			Fin		Ind	Pres	Act	1								Pos												VB-P---1P-AA---	12	cop	_	_
+	10	už	už	ADV																															Db-------------	12	advmod:emph	_	_
+	11	v	v	ADP				Loc																								Prep			RR--6----------	12	case	_	_
+	12	ní	on	PRON	Fem		Sing	Loc	Pre						3	Prs																			P5FS6--3-------	6	dep	_	SpaceAfter=No
+	13	.	.	PUNCT																															Z:-------------	6	punct	_	_
+																																							
+	# sent_id = 80																																						
+	# text = Ano, utekla ta holota, byl jsem tamto,“ pravil průvodce ukazuje na stodolu.																																						
+	1	Ano	ano	PART																															TT-------------	3	mark	_	SpaceAfter=No
+	2	,	,	PUNCT																															Z:-------------	1	punct	_	_
+	3	utekla	utéci	VERB	Fem,Neut		Plur,Sing			Part			Past	Act									Pos												VpQW---XR-AA---	9	advcl	_	_
+	4	ta	ten	DET	Fem		Sing	Nom								Dem																			PDFS1----------	5	det	_	_
+	5	holota	holot	NOUN	Fem		Sing	Nom															Pos												NNFS1-----A----	3	nsubj	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	3	punct	_	_
+	7	byl	být	AUX	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	9	cop	_	_
+	8	jsem	být	AUX			Sing			Fin		Ind	Pres	Act	1								Pos												VB-S---1P-AA---	9	aux	_	_
+	9	tamto	tenta	DET	Masc,Neut		Sing	Loc								Dem																			PDZS6----------	0	root	_	SpaceAfter=No
+	10	,	,	PUNCT																															Z:-------------	12	punct	_	SpaceAfter=No
+	11	“	“	PUNCT																															Z:-------------	12	punct	_	_
+	12	pravil	pravit	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA---	9	conj	_	_
+	13	průvodce	průvodce	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	12	nsubj	_	_
+	14	ukazuje	ukazovat	VERB			Sing			Fin	Imp	Ind	Pres	Act	3								Pos												VB-S---3P-AA---	12	advcl	_	_
+	15	na	na	ADP				Acc																								Prep			RR--4----------	16	case	_	_
+	16	stodolu	stodol	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	14	obl	_	SpaceAfter=No
+	17	.	.	PUNCT																															Z:-------------	9	punct	_	_
+																																							
+	# sent_id = 81																																						
+	# text = „Vše jako vymeteno, ani stébla tam není.																																						
+	1	„	„	PUNCT																															Z:-------------	9	punct	_	SpaceAfter=No
+	2	Vše	všechen	DET	Neut		Sing	Nom								Tot																			PLNS1---------1	9	nsubj	_	_
+	3	jako	jako	SCONJ																															J,-------------	4	mark	_	_
+	4	vymeteno	vymetený	ADJ	Neut		Sing			Part	Perf			Pass							Short		Pos												VsNS---XX-AP---	2	xcomp	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	7	punct	_	_
+	6	ani	ani	CCONJ																															J^-------------	7	cc	_	_
+	7	stébla	stéblo	VERB	Fem,Neut		Plur,Sing			Part	Perf		Past	Act									Pos												VpQW---XR-AA--1	2	acl	_	_
+	8	tam	tam	ADV												Dem																			Db-------------	7	advmod	_	_
+	9	není	být	VERB			Sing			Fin		Ind	Pres	Act	3								Neg												VB-S---3P-NA---	0	root	_	SpaceAfter=No
+	10	.	.	PUNCT																															Z:-------------	9	punct	_	_
+																																							
+	# sent_id = 82																																						
+	# text = Utekli ze statku!“																																						
+	1	Utekli	utéci	VERB	Masc	Anim	Plur			Part			Past	Act									Pos												VpMP---XR-AA---	0	root	_	_
+	2	ze	z	ADP				Gen																								Voc			RV--2----------	3	case	_	_
+	3	statku	statek	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	1	obl	_	SpaceAfter=No
+	4	!“	!“	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 83																																						
+	# text = Pak pomohl pánu svému, jenž byl kord zastrčil, do sedla a vyhoupl se na to sám na svého vrance.																																						
+	1	Pak	pak	ADV																															Db-------------	2	advmod	_	_
+	2	pomohl	pomoci	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	3	pánu	pán	NOUN	Masc	Anim	Sing	Loc															Pos												NNMS6-----A---1	2	obj	_	_
+	4	svému	svůj	DET	Masc,Neut		Sing	Dat								Prs	Poss	Reflex																	P8ZS3----------	3	amod	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	9	punct	_	_
+	6	jenž	jenž	PRON	Masc		Sing	Nom	Npr							Rel																			PJYS1----------	9	nsubj	_	_
+	7	byl	být	AUX	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	9	aux	_	_
+	8	kord	kord	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	9	nsubj	_	_
+	9	zastrčil	zastrčit	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA---	4	acl	_	SpaceAfter=No
+	10	,	,	PUNCT																															Z:-------------	12	punct	_	_
+	11	do	do	ADP				Gen																								Prep			RR--2----------	12	case	_	_
+	12	sedla	sedlo	NOUN	Neut		Sing	Gen															Pos												NNNS2-----A----	9	obl	_	_
+	13	a	a	CCONJ																															J^-------------	14	cc	_	_
+	14	vyhoupl	vyhoupnout	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA--1	9	conj	_	_
+	15	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	14	expl:pv	_	_
+	16	na	na	ADP				Acc																								Prep			RR--4----------	17	case	_	_
+	17	to	ten	DET	Neut		Sing	Acc								Dem																			PDNS4----------	14	obl	_	_
+	18	sám	sám	DET	Masc		Sing	Nom								Emp																			PLYS1----------	14	xcomp	_	_
+	19	na	na	ADP				Acc																								Prep			RR--4----------	21	case	_	_
+	20	svého	svůj	DET	Masc	Anim	Sing	Acc								Prs	Poss	Reflex																	P8MS4----------	21	det	_	_
+	21	vrance	vrance	NOUN	Masc	Anim	Sing	Acc															Pos												NNMS4-----A----	14	obl	_	SpaceAfter=No
+	22	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 84																																						
+	# text = „Dál budeme šťastnější,“ pravil a pohlédl zběžně, ale bedlivě na zakaboněnou tvář mladého pána.																																						
+	1	„	„	PUNCT																															Z:-------------	4	punct	_	SpaceAfter=No
+	2	Dál	dále	ADV																															Db-------------	4	advmod	_	_
+	3	budeme	být	AUX			Plur			Fin		Ind	Fut	Act	1								Pos												VB-P---1F-AA---	4	cop	_	_
+	4	šťastnější	šťastný	ADJ	Masc	Anim	Sing	Nom														Cmp	Pos												AAMS1----2A----	0	root	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	4	punct	_	SpaceAfter=No
+	6	“	“	PUNCT																															Z:-------------	7	punct	_	_
+	7	pravil	pravit	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA---	4	conj	_	_
+	8	a	a	CCONJ																															J^-------------	9	cc	_	_
+	9	pohlédl	pohlédnout	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA--1	4	conj	_	_
+	10	zběžně	zběžně	ADV																		Pos	Pos												Dg-------1A----	4	conj	_	SpaceAfter=No
+	11	,	,	PUNCT																															Z:-------------	16	punct	_	_
+	12	ale	ale	CCONJ																															J^-------------	16	cc	_	_
+	13	bedlivě	bedlivě	ADV																		Pos	Pos												Dg-------1A----	16	advmod	_	_
+	14	na	na	ADP				Acc																								Prep			RR--4----------	16	case	_	_
+	15	zakaboněnou	zakaboněný	ADJ	Fem		Sing	Acc														Pos	Pos												AAFS4----1A----	16	amod	_	_
+	16	tvář	tvář	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	4	conj	_	_
+	17	mladého	mladý	ADJ	Masc	Anim	Sing	Gen														Pos	Pos												AAMS2----1A----	18	amod	_	_
+	18	pána	pán	NOUN	Masc	Anim	Sing	Acc															Pos												NNMS4-----A----	16	nmod	_	SpaceAfter=No
+	19	.	.	PUNCT																															Z:-------------	4	punct	_	SpacesAfter=\n\n
+																																							
+	# newpar																																						
+	# sent_id = 85																																						
+	# text = Vyjeli ze dvora.																																						
+	1	Vyjeli	vyjet	VERB	Masc	Anim	Plur			Part			Past	Act									Pos												VpMP---XR-AA---	0	root	_	_
+	2	ze	z	ADP				Gen																								Voc			RV--2----------	3	case	_	_
+	3	dvora	dvůr	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	1	obl	_	SpaceAfter=No
+	4	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 86																																						
+	# text = Nikdo nevystoupil z úkrytu, do kterého by se snad byl před ozbrojenými jezdci utekl, aby usmívaje se spokojeně za nimi se podíval.																																						
+	1	Nikdo	nikdo	PRON	Masc	Anim		Nom								Neg																			PWM-1----------	2	nsubj	_	_
+	2	nevystoupil	vystoupit	VERB	Masc		Sing			Part	Perf		Past	Act									Neg												VpYS---XR-NA---	0	root	_	_
+	3	z	z	ADP				Gen																								Prep			RR--2----------	4	case	_	_
+	4	úkrytu	úkryt	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	2	obl:arg	_	SpaceAfter=No
+	5	,	,	PUNCT																															Z:-------------	15	punct	_	_
+	6	do	do	ADP				Gen																								Prep			RR--2----------	7	case	_	_
+	7	kterého	který	DET	Masc,Neut		Sing	Gen								Int,Rel																			P4ZS2----------	15	obl	_	_
+	8	by	být	AUX						Fin		Cnd																							Vc-------------	15	aux	_	_
+	9	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	15	expl:pv	_	_
+	10	snad	snad	ADV																															Db-------------	15	advmod	_	_
+	11	byl	být	AUX	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	15	aux	_	_
+	12	před	před	ADP				Ins																								Prep			RR--7----------	14	case	_	_
+	13	ozbrojenými	ozbrojený	ADJ	Masc	Anim	Plur	Ins														Pos	Pos												AAMP7----1A----	14	amod	_	_
+	14	jezdci	jezdec	NOUN	Masc	Anim	Plur	Ins															Pos												NNMP7-----A----	15	obl	_	_
+	15	utekl	utéci	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	4	acl	_	SpaceAfter=No
+	16	,	,	PUNCT																															Z:-------------	19	punct	_	_
+	17-18	aby	_	_																															_	_	_	_	_
+	17	aby	aby	SCONJ																															J,-------------	19	mark	_	_
+	18	by	být	AUX						Fin		Cnd			3																				Vc-------------	19	aux	_	_
+	19	usmívaje	usmívat	VERB	Masc		Sing			Conv	Imp		Pres	Act									Pos												VeYS------A----	15	advcl	_	_
+	20	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	25	expl:pv	_	_
+	21	spokojeně	spokojeně	ADV																		Pos	Pos												Dg-------1A----	25	advmod	_	_
+	22	za	za	ADP				Ins																								Prep			RR--7----------	23	case	_	_
+	23	nimi	on	PRON			Plur	Ins	Pre						3	Prs																			P5XP7--3-------	25	obl	_	_
+	24	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	25	expl:pv	_	_
+	25	podíval	podívat	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA---	19	ccomp	_	SpaceAfter=No
+	26	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 87																																						
+	# text = Zadul vítr a zavál čerstvé stopy koní.																																						
+	1	Zadul	zadout	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	2	vítr	vítr	NOUN	Masc	Inan	Sing	Nom															Pos												NNIS1-----A----	1	nsubj	_	_
+	3	a	a	CCONJ																															J^-------------	4	cc	_	_
+	4	zavál	zavát	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	1	conj	_	_
+	5	čerstvé	čerstvý	ADJ	Fem		Plur	Acc														Pos	Pos												AAFP4----1A----	6	amod	_	_
+	6	stopy	stopa	NOUN	Fem		Plur	Acc															Pos												NNFP4-----A----	4	obj	_	_
+	7	koní	kůň	NOUN	Masc	Anim	Plur	Gen															Pos												NNMP2-----A----	6	nmod	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 88																																						
+	# text = Na dvoře i ve stavení bylo ticho.																																						
+	1	Na	na	ADP				Loc																								Prep			RR--6----------	2	case	_	_
+	2	dvoře	dvůr	NOUN	Masc	Inan	Sing	Loc															Pos												NNIS6-----A----	7	obl	_	_
+	3	i	i	CCONJ																															J^-------------	5	advmod:emph	_	_
+	4	ve	v	ADP				Loc																								Voc			RV--6----------	5	case	_	_
+	5	stavení	stavení	NOUN	Neut		Sing	Loc															Pos												NNNS6-----A----	7	obl	_	_
+	6	bylo	být	AUX	Neut		Sing			Part			Past	Act									Pos												VpNS---XR-AA---	7	cop	_	_
+	7	ticho	ticho	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	0	root	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	7	punct	_	_
+																																							
+	# sent_id = 89																																						
+	# text = Ale to mrtvé ticho mluvilo, křičelo.																																						
+	1	Ale	ale	CCONJ																															J^-------------	5	cc	_	_
+	2	to	ten	DET	Neut		Sing	Nom								Dem																			PDNS1----------	5	nsubj	_	_
+	3	mrtvé	mrtvý	ADJ	Neut		Sing	Nom														Pos	Pos												AANS1----1A----	4	amod	_	_
+	4	ticho	ticho	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	5	nsubj	_	_
+	5	mluvilo	mluvit	VERB	Neut		Sing			Part	Imp		Past	Act									Pos												VpNS---XR-AA---	0	root	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	7	punct	_	_
+	7	křičelo	křičet	VERB	Neut		Sing			Part	Imp		Past	Act									Pos												VpNS---XR-AA---	5	conj	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	5	punct	_	_
+																																							
+	# sent_id = 90																																						
+	# text = Sedlák opustil s rodinou svou stavení, v němž se byl narodil, v němž od nepaměti předkové jeho bydlili.																																						
+	1	Sedlák	Sedlák	PROPN	Masc	Anim	Sing	Nom															Pos											Sur	NNMS1-----A----	2	nsubj	_	_
+	2	opustil	opustit	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	3	s	s	ADP				Ins																								Prep			RR--7----------	4	case	_	_
+	4	rodinou	rodina	NOUN	Fem		Sing	Ins															Pos												NNFS7-----A----	2	obl	_	_
+	5	svou	svůj	DET	Fem		Sing	Ins								Prs	Poss	Reflex																	P8FS7---------1	6	det	_	_
+	6	stavení	stavení	NOUN	Neut		Sing	Gen															Pos												NNNS2-----A----	2	obj	_	SpaceAfter=No
+	7	,	,	PUNCT																															Z:-------------	12	punct	_	_
+	8	v	v	ADP				Loc																								Prep			RR--6----------	9	case	_	_
+	9	němž	jenž	PRON	Masc,Neut		Sing	Loc	Pre							Rel																			P9ZS6----------	12	obl	_	_
+	10	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	12	expl:pass	_	_
+	11	byl	být	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	12	nsubj:pass	_	_
+	12	narodil	narodit	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA---	6	acl	_	SpaceAfter=No
+	13	,	,	PUNCT																															Z:-------------	17	punct	_	_
+	14	v	v	ADP				Loc																								Prep			RR--6----------	15	case	_	_
+	15	němž	jenž	PRON	Masc,Neut		Sing	Loc	Pre							Rel																			P9ZS6----------	17	dep	_	_
+	16	od	od	ADP				Gen																								Prep			RR--2----------	17	case	_	_
+	17	nepaměti	nepaměť	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	12	obl	_	_
+	18	předkové	předkový	ADJ	Fem		Sing	Gen														Pos	Pos												AAFS2----1A----	17	amod	_	_
+	19	jeho	jeho	DET											3	Prs	Poss		Masc,Neut	Sing															PSXXXZS3-------	20	det	_	_
+	20	bydlili	bydlile	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	18	obj	_	SpaceAfter=No
+	21	.	.	PUNCT																															Z:-------------	12	punct	_	_
+																																							
+	# sent_id = 91																																						
+	# text = Rodinnou jizbu udělali mu žalářem, pole otcovská stala se mu mučírnou.																																						
+	1	Rodinnou	rodinný	ADJ	Fem		Sing	Acc														Pos	Pos												AAFS4----1A----	2	amod	_	_
+	2	jizbu	jizba	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	3	obj	_	_
+	3	udělali	udělat	VERB	Masc	Anim	Plur			Part	Perf		Past	Act									Pos												VpMP---XR-AA---	0	root	_	_
+	4	mu	on	PRON	Masc,Neut		Sing	Dat							3	Prs					Short														PHZS3--3-------	3	iobj	_	_
+	5	žalářem	žalář	NUM			Plur	Dat																Card	Word	1,2,3									ClXP3----------	3	nsubj	_	SpaceAfter=No
+	6	,	,	PUNCT																															Z:-------------	9	punct	_	_
+	7	pole	pole	NOUN	Neut		Plur	Acc															Pos												NNNP4-----A----	9	obj	_	_
+	8	otcovská	otcovský	ADJ	Neut		Plur	Acc														Pos	Pos												AANP4----1A----	7	xcomp	_	_
+	9	stala	stát	VERB	Fem,Neut		Plur,Sing			Part			Past	Act									Pos												VpQW---XR-AA---	5	acl	_	_
+	10	se	se	PRON				Acc								Prs		Reflex			Short														P7-X4----------	9	expl:pv	_	_
+	11	mu	on	PRON	Masc,Neut		Sing	Dat							3	Prs					Short														PHZS3--3-------	12	obj	_	_
+	12	mučírnou	mučírnout	VERB			Plur			Fin		Ind	Pres	Act	3								Pos												VB-P---3P-AA---	9	nsubj	_	SpaceAfter=No
+	13	.	.	PUNCT																															Z:-------------	3	punct	_	_
+																																							
+	# sent_id = 92																																						
+	# text = Pracovat musil na cizím ve stínu karabáče, a odměnou jeho byla lavice a dřevěný osel.																																						
+	1	Pracovat	pracovat	VERB						Inf	Imp												Pos												Vf--------A----	0	root	_	_
+	2	musil	musit	VERB	Masc		Sing			Part	Imp		Past	Act									Pos												VpYS---XR-AA---	1	advcl	_	_
+	3	na	na	ADP				Loc																								Prep			RR--6----------	4	case	_	_
+	4	cizím	cizí	ADJ	Neut		Sing	Loc														Pos	Pos												AANS6----1A----	2	obl	_	_
+	5	ve	v	ADP				Loc																								Voc			RV--6----------	6	case	_	_
+	6	stínu	stín	NOUN	Masc	Inan	Sing	Loc															Pos												NNIS6-----A----	2	obl	_	_
+	7	karabáče	karabáč	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	6	nmod	_	SpaceAfter=No
+	8	,	,	PUNCT																															Z:-------------	10	punct	_	_
+	9	a	a	CCONJ																															J^-------------	10	cc	_	_
+	10	odměnou	odměna	NOUN	Fem		Sing	Ins															Pos												NNFS7-----A----	2	conj	_	_
+	11	jeho	jeho	DET											3	Prs	Poss		Masc,Neut	Sing															PSXXXZS3-------	13	det	_	_
+	12	byla	být	AUX	Fem,Neut		Plur,Sing			Part			Past	Act									Pos												VpQW---XR-AA---	13	cop	_	_
+	13	lavice	lavice	NOUN	Fem		Plur	Acc															Pos												NNFP4-----A----	10	orphan	_	_
+	14	a	a	CCONJ																															J^-------------	16	cc	_	_
+	15	dřevěný	dřevěný	ADJ	Masc	Anim	Sing	Nom														Pos	Pos												AAMS1----1A----	16	amod	_	_
+	16	osel	osel	NOUN	Masc	Anim	Sing	Nom															Pos												NNMS1-----A----	13	conj	_	SpaceAfter=No
+	17	.	.	PUNCT																															Z:-------------	13	punct	_	_
+																																							
+	# sent_id = 93																																						
+	# text = Páni ssáli jeho krev a za jeho pot hodovali.																																						
+	1	Páni	pán	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A---1	2	nsubj	_	_
+	2	ssáli	ssát	VERB	Masc	Anim	Plur			Part	Imp		Past	Act									Pos												VpMP---XR-AA---	0	root	_	_
+	3	jeho	jeho	DET											3	Prs	Poss		Masc,Neut	Sing															PSXXXZS3-------	4	det	_	_
+	4	krev	krev	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	2	obj	_	_
+	5	a	a	CCONJ																															J^-------------	9	cc	_	_
+	6	za	za	ADP				Acc																								Prep			RR--4----------	8	case	_	_
+	7	jeho	jeho	DET											3	Prs	Poss		Masc,Neut	Sing															PSXXXZS3-------	8	det	_	_
+	8	pot	pota	NOUN	Masc	Inan	Sing	Acc															Pos												NNIS4-----A----	9	obl:arg	_	_
+	9	hodovali	hodovat	VERB	Masc	Anim	Plur			Part	Imp		Past	Act									Pos												VpMP---XR-AA---	2	conj	_	SpaceAfter=No
+	10	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 94																																						
+	# text = Pak přikvačily ještě kobylky: tu císařští, tu Burkušové-Prušáci loupili české vsi, mučíce jejich obyvatelstvo.																																						
+	1	Pak	pak	ADV																															Db-------------	2	advmod	_	_
+	2	přikvačily	přikvačit	VERB	Fem,Masc	Inan	Plur			Part	Perf		Past	Act									Pos												VpTP---XR-AA---	0	root	_	_
+	3	ještě	ještě	ADV																															Db-------------	4	advmod:emph	_	_
+	4	kobylky	kobylka	NOUN	Fem		Plur	Nom															Pos												NNFP1-----A----	2	nsubj	_	SpaceAfter=No
+	5	:	:	PUNCT																															Z:-------------	7	punct	_	_
+	6	tu	tady	ADV												Dem																			Db------------1	7	advmod	_	_
+	7	císařští	císařský	ADJ	Masc	Anim	Plur	Nom														Pos	Pos												AAMP1----1A----	2	conj	_	SpaceAfter=No
+	8	,	,	PUNCT																															Z:-------------	10	punct	_	_
+	9	tu	tady	DET	Fem		Sing	Acc								Dem																			PDFS4----------	10	det	_	_
+	10	Burkušové	Burkušová	PROPN	Fem		Sing	Dat															Pos											Sur	NNFS3-----A----	7	appos	_	SpaceAfter=No
+	11	-	-	PUNCT																															Z:-------------	10	punct	_	SpaceAfter=No
+	12	Prušáci	Prušák	PROPN	Masc	Anim	Plur	Nom															Pos											Nat	NNMP1-----A----	10	nsubj	_	_
+	13	loupili	loupit	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	10	obj	_	_
+	14	české	český	ADJ	Fem		Sing	Gen														Pos	Pos												AAFS2----1A----	15	amod	_	_
+	15	vsi	ves	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	13	nmod	_	SpaceAfter=No
+	16	,	,	PUNCT																															Z:-------------	17	punct	_	_
+	17	mučíce	mučit	VERB			Plur			Conv	Imp		Pres	Act									Pos												VeXP------A----	13	acl	_	_
+	18	jejich	jeho	DET											3	Prs	Poss			Plur															PSXXXXP3-------	19	det	_	_
+	19	obyvatelstvo	obyvatelstvo	NOUN	Neut		Sing	Acc															Pos												NNNS4-----A----	17	obj	_	SpaceAfter=No
+	20	.	.	PUNCT																															Z:-------------	2	punct	_	_
+																																							
+	# sent_id = 95																																						
+	# text = Neblahé následky válek minulého věku nebyly odstraněny, a zas přikvačily hrůzy války sedmileté.																																						
+	1	Neblahé	blahý	ADJ	Neut		Sing	Nom														Pos	Neg												AANS1----1N----	2	amod	_	_
+	2	následky	následek	NOUN	Masc	Inan	Plur	Nom															Pos												NNIP1-----A----	7	nsubj:pass	_	_
+	3	válek	válka	NOUN	Fem		Plur	Gen															Pos												NNFP2-----A----	2	nmod	_	_
+	4	minulého	minulý	ADJ	Masc	Inan	Sing	Gen														Pos	Pos												AAIS2----1A----	5	amod	_	_
+	5	věku	věk	NOUN	Masc	Inan	Sing	Gen															Pos												NNIS2-----A----	3	nmod	_	_
+	6	nebyly	být	AUX	Fem,Masc	Inan	Plur			Part			Past	Act									Neg												VpTP---XR-NA---	7	aux:pass	_	_
+	7	odstraněny	odstraněný	ADJ	Fem,Masc	Inan	Plur			Part	Perf			Pass							Short		Pos												VsTP---XX-AP---	0	root	_	SpaceAfter=No
+	8	,	,	PUNCT																															Z:-------------	11	punct	_	_
+	9	a	a	CCONJ																															J^-------------	11	cc	_	_
+	10	zas	zas	ADV																															Db-------------	11	advmod	_	_
+	11	přikvačily	přikvačit	VERB	Fem,Masc	Inan	Plur			Part	Perf		Past	Act									Pos												VpTP---XR-AA---	7	conj	_	_
+	12	hrůzy	hrůza	NOUN	Fem		Plur	Nom															Pos												NNFP1-----A----	11	nsubj	_	_
+	13	války	válka	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	12	nmod	_	_
+	14	sedmileté	sedmiletý	ADJ	Fem		Sing	Gen														Pos	Pos												AAFS2----1A----	13	amod	_	SpaceAfter=No
+	15	.	.	PUNCT																															Z:-------------	7	punct	_	_
+																																							
+	# sent_id = 96																																						
+	# text = Nezbylo sedláku nic než holé zdi, a ty mnohdy vojáci spálili.																																						
+	1	Nezbylo	zbýt	VERB	Neut		Sing			Part			Past	Act									Neg												VpNS---XR-NA---	0	root	_	_
+	2	sedláku	sedlák	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	12	obj	_	_
+	3	nic	nic	PRON				Acc								Neg																			PW--4----------	12	obj	_	_
+	4	než	než	SCONJ																															J,-------------	5	mark	_	_
+	5	holé	holý	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A----	3	advcl	_	_
+	6	zdi	zeď	NOUN	Fem		Sing	Gen															Pos												NNFS2-----A----	5	nmod	_	SpaceAfter=No
+	7	,	,	PUNCT																															Z:-------------	12	punct	_	_
+	8	a	a	CCONJ																															J^-------------	12	cc	_	_
+	9	ty	ten	DET	Masc	Inan	Plur	Nom								Dem																			PDIP1----------	12	obj	_	_
+	10	mnohdy	mnohdy	ADV																															Db-------------	12	advmod	_	_
+	11	vojáci	voják	NOUN	Masc	Anim	Plur	Nom															Pos												NNMP1-----A----	12	nsubj	_	_
+	12	spálili	spálit	VERB	Masc	Anim	Plur			Part	Perf		Past	Act									Pos												VpMP---XR-AA---	1	csubj	_	SpaceAfter=No
+	13	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 97																																						
+	# text = A z nich pak ještě musil platit kontribuci.																																						
+	1	A	a	CCONJ																															J^-------------	6	nsubj	_	_
+	2	z	z	ADP				Gen																								Prep			RR--2----------	3	case	_	_
+	3	nich	on	PRON			Plur	Gen	Pre						3	Prs																			P5XP2--3-------	1	nmod	_	_
+	4	pak	pak	ADV																															Db-------------	6	advmod	_	_
+	5	ještě	ještě	ADV																															Db-------------	6	advmod	_	_
+	6	musil	musit	VERB	Masc		Sing			Part	Imp		Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	7	platit	platit	VERB						Inf													Pos												Vf--------A----	6	xcomp	_	_
+	8	kontribuci	kontribuce	NOUN	Fem		Sing	Acc															Pos												NNFS4-----A----	7	obj	_	SpaceAfter=No
+	9	.	.	PUNCT																															Z:-------------	6	punct	_	_
+																																							
+	# sent_id = 98																																						
+	# text = Opustil je a umíral v lesích hladem.																																						
+	1	Opustil	opustit	VERB	Masc		Sing			Part	Perf		Past	Act									Pos												VpYS---XR-AA---	0	root	_	_
+	2	je	on	PRON			Plur	Acc							3	Prs																			PPXP4--3-------	1	obj	_	_
+	3	a	a	CCONJ																															J^-------------	4	cc	_	_
+	4	umíral	umírat	VERB	Masc		Sing			Part			Past	Act									Pos												VpYS---XR-AA---	1	conj	_	_
+	5	v	v	ADP				Loc																								Prep			RR--6----------	6	case	_	_
+	6	lesích	lesí	NOUN	Masc	Inan	Plur	Loc															Pos												NNIP6-----A----	4	obl	_	_
+	7	hladem	hlad	NOUN	Masc	Inan	Sing	Ins															Pos												NNIS7-----A----	4	obl	_	SpaceAfter=No
+	8	.	.	PUNCT																															Z:-------------	1	punct	_	_
+																																							
+	# sent_id = 99																																						
+	# text = „Lenivé plémě!																																						
+	1	„	„	PUNCT																															Z:-------------	3	punct	_	SpaceAfter=No
+	2	Lenivé	Lenivý	ADJ	Neut		Sing	Nom														Pos	Pos												AANS1----1A----	3	amod	_	_
+	3	plémě	plémě	NOUN	Neut		Sing	Nom															Pos												NNNS1-----A----	0	root	_	SpaceAfter=No
+	4	!	!	PUNCT																															Z:-------------	3	punct	_	SpaceAfter=No
+																																							
+	# sent_id = 100																																						
+	# text = “																																						
+	1	“	“	PUNCT																															Z:-------------	0	root	_	SpacesAfter=\n\n
