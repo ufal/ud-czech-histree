@@ -32,6 +32,13 @@ fromtable:
 	perl tsv_to_conllu.pl < davka01-dan.csv > davka01-dan-morpho.conllu
 	perl resegment.pl < davka01-dan-morpho.conllu > davka01-dan-morpho-resegmented.conllu
 
+# Dvě anotace téhož textu, které se kromě morfologie můžou lišit i v tokenizaci a segmentaci vět,
+# můžeme porovnat pomocí vyhodnocovacího skriptu ze soutěže CoNLL 2018. Dokud nebudeme potřebovat
+# spočítat třeba Kohenovo kappa, měl by ten skript stačit. A hlavně by měl vyřešit párování tokenů.
+# Ale pozor! Vyhodnocovací skript počítá s tím, že bude hodnotit i stromovou strukturu, a neunese cykly.
+compare:
+	python C:\Users\Dan\Documents\Lingvistika\Projekty\universal-dependencies\conll\conll2018\evaluation_script\conll18_ud_eval.py davka01-dan-morpho-resegmented.conllu davka01-klara-morpho-resegmented.conllu
+
 # TO DO
 # - Vyhodnotit úspěšnost jednotlivých modelů UDPipe.
 # - Zkontrolovat, že každý slovní druh má takové rysy, které by měl mít.
